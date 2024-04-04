@@ -3,7 +3,7 @@ import math
 import open3d as o3d
 import numpy as np
 
-ROTATIONS = 3
+ROTATIONS = 1
 ANGLE = 11.25
 measurements = []
 map = []
@@ -26,7 +26,6 @@ while(True):
     if line:
         # Print the line
         measurements.append(line.decode('utf-8').strip())
-        print(line.decode('utf-8').strip())
 
 s.close()
 
@@ -34,16 +33,14 @@ s.close()
 z = 10
 counter = 0
 for i in range(len(measurements)):
-    print(math.radians(ANGLE))
     x = float(measurements[i]) * math.sin(math.radians(ANGLE)*(i%(len(measurements)/ROTATIONS)))  # Ensure counter stays within 0 to 7
     y = float(measurements[i]) * math.cos(math.radians(ANGLE)*(i%(len(measurements)/ROTATIONS)))  # Ensure counter stays within 0 to 7
 
 
     if (i) % (len(measurements) / ROTATIONS) == 0:  # Check if it's time to increase z
-        z = z + 400
+        z += 50
     
     map.append([x, y, z])
-    print(x, " ", y, " ", z)
 
     counter = counter + 1
 
@@ -56,7 +53,7 @@ pcd.points = o3d.utility.Vector3dVector(points)
 
 # Compute k-nearest neighbors
 kdtree = o3d.geometry.KDTreeFlann(pcd)
-k = 5  # Choose the number of nearest neighbors to connect
+k = 10  # Choose the number of nearest neighbors to connect
 lines = []
 
 for i in range(len(points)):

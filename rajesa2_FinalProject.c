@@ -78,16 +78,16 @@ void VL53L1X_XSHUT(void){
 }
 
 //Initialize motor port
-void init_portL(){
-	SYSCTL_RCGCGPIO_R |= SYSCTL_RCGCGPIO_R10; //enable clock and wait for it to load
-	while ((SYSCTL_PRGPIO_R & SYSCTL_PRGPIO_R10) == 0)
+void init_portK(){
+	SYSCTL_RCGCGPIO_R |= SYSCTL_RCGCGPIO_R9; //enable clock and wait for it to load
+	while ((SYSCTL_PRGPIO_R & SYSCTL_PRGPIO_R9) == 0)
     {
 
     };
 
 	//ditigal enable, set to output
-	GPIO_PORTL_DIR_R = 0b00001111; // Enable PL0, PL1, PL2, and PL3 as outputs.
-    GPIO_PORTL_DEN_R = 0b00001111; // Enable PL0, PL1, PL2 and PL3 as digital pins.
+	GPIO_PORTK_DIR_R = 0b00001111; // Enable PL0, PL1, PL2, and PL3 as outputs.
+    GPIO_PORTK_DEN_R = 0b00001111; // Enable PL0, PL1, PL2 and PL3 as digital pins.
     return;
 }
 
@@ -95,8 +95,11 @@ void init_portL(){
 
 //---------- Global variables ----------
 
-int STEPS = 32;
-#define ROTATIONS 3
+#define STEPS 32
+#define ROTATIONS 2
+
+uint16_t distances[STEPS*ROTATIONS];
+char float_distances[STEPS*ROTATIONS];
 
 int motorSteps[] = {0b00000011, 0b00000110, 0b00001100, 0b00001001};
 int rev_motorSteps[] = {0b00001001, 0b00001100, 0b00000110, 0b00000011};
@@ -106,24 +109,33 @@ uint8_t dataReady;
 int status = 0;
 
 uint16_t collect_data(){
-	uint16_t Distance;
+	uint16_t Distance = 0;
+	uint8_t xx = 0;
 	
 	//Wait for ToF sensor to be ready
-	while (dataReady == 0){
-		  status = VL53L1X_CheckForDataReady(dev, &dataReady);
-          FlashLED3(1);
-          VL53L1_WaitMs(dev, 5);
+	
+	while (xx == 0){
+		status = VL53L1X_StartRanging(dev);
+		status = VL53L1X_CheckForDataReady(dev, &xx);
+
+          FlashLED1(1);
+          SysTick_Wait10ms(1);
+		  VL53L1X_StopRanging(dev);
+		  status = VL53L1X_ClearInterrupt(dev);
+
 	  }
-		dataReady = 0;
+		xx = 0;
 		
 		status = VL53L1X_GetDistance(dev, &Distance);	//getc distance measurement
+
+		status = VL53L1X_ClearInterrupt(dev);
 		
 		return Distance;
 	
 	
 }
 
-void spin_motor(int* distances){
+void spin_motor(uint16_t* distances){
 	int counter = 0;
 	int direction = 0;
 	for(int i=0;i<ROTATIONS;i++){
@@ -132,9 +144,9 @@ void spin_motor(int* distances){
 				for(int j = 0;j<(2048/(STEPS*4));j++){
 					for(int k=0;k<4;k++){
 						if(direction){
-							GPIO_PORTL_DATA_R = rev_motorSteps[k];
+							GPIO_PORTK_DATA_R = rev_motorSteps[k];
 						} else{
-							GPIO_PORTL_DATA_R = motorSteps[k];
+							GPIO_PORTK_DATA_R = motorSteps[k];
 						}
 						
 						SysTick_Wait(200000);
@@ -146,6 +158,25 @@ void spin_motor(int* distances){
 				SysTick_Wait(200000);
 				counter++;
 				
+			}
+
+			//return to home
+			for(int x=0;x<STEPS;x++){ //take this many measurements per rotation
+				
+				for(int j = 0;j<(2048/(STEPS*4));j++){
+					for(int k=0;k<4;k++){
+						if(!direction){
+							GPIO_PORTK_DATA_R = rev_motorSteps[k];
+						} else{
+							GPIO_PORTK_DATA_R = motorSteps[k];
+						}
+						
+						SysTick_Wait(200000);
+					}
+				}
+				
+				SysTick_Wait(200000);
+
 			}
 				
 			direction ^= 1;
@@ -176,8 +207,7 @@ int main(void) {
   uint8_t RangeStatus;
   uint8_t dataReady;
   uint8_t sensorState = 0;
-	int distances[((int)(ROTATIONS * (STEPS)))];
-	char float_distances[((int)(ROTATIONS * (STEPS)))];
+	
 	int start;
 	
 		
@@ -188,7 +218,7 @@ int main(void) {
 	onboardLEDs_Init();
 	I2C_Init();
 	UART_Init();
-	init_portL();
+	init_portK();
 	
 
 	// Wait for ToF Sensor to turn on
@@ -198,6 +228,8 @@ int main(void) {
   }
 	UART_printf("ToF Initialized.\r\n");
 	
+	status = VL53L1X_ClearInterrupt(dev); /* clear interrupt has to be called to enable next interrupt*/
+
   //Initialize sensor with predefined mode
   status = VL53L1X_SensorInit(dev);
 	Status_Check("SensorInit", status);
@@ -231,4 +263,3 @@ int main(void) {
 	VL53L1X_StopRanging(dev);
 
 }
-
