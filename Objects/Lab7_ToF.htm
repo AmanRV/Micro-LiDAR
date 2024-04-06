@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\Lab7_ToF.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\Lab7_ToF.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6210000: Last Updated: Tue Apr  2 04:34:22 2024
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6210000: Last Updated: Sat Apr  6 10:43:28 2024
 <BR><P>
 <H3>Maximum Stack Usage =        324 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -160,9 +160,9 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
 </UL>
 
-<P><STRONG><a name="[f7]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<P><STRONG><a name="[fa]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
 
-<P><STRONG><a name="[f8]"></a>__scatterload_loop</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<P><STRONG><a name="[fb]"></a>__scatterload_loop</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
 
 <P><STRONG><a name="[77]"></a>__scatterload_copy</STRONG> (Thumb, 26 bytes, Stack size unknown bytes, __scatter_copy.o(!!handler_copy), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
@@ -170,9 +170,9 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
 </UL>
 
-<P><STRONG><a name="[f9]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, __scatter.o(!!handler_null), UNUSED)
+<P><STRONG><a name="[fc]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, __scatter.o(!!handler_null), UNUSED)
 
-<P><STRONG><a name="[fa]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
+<P><STRONG><a name="[fd]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
 
 <P><STRONG><a name="[78]"></a>_printf_n</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_n.o(.ARM.Collect$$_printf_percent$$00000001))
 <BR><BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_charcount
@@ -217,7 +217,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_hex
 </UL>
 
-<P><STRONG><a name="[fb]"></a>_printf_ll</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_ll.o(.ARM.Collect$$_printf_percent$$00000007))
+<P><STRONG><a name="[fe]"></a>_printf_ll</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_ll.o(.ARM.Collect$$_printf_percent$$00000007))
 
 <P><STRONG><a name="[82]"></a>_printf_i</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_i.o(.ARM.Collect$$_printf_percent$$00000008))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72 + Unknown Stack Size
@@ -289,7 +289,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_ll_hex
 </UL>
 
-<P><STRONG><a name="[fc]"></a>_printf_l</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_l.o(.ARM.Collect$$_printf_percent$$00000012))
+<P><STRONG><a name="[ff]"></a>_printf_l</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_l.o(.ARM.Collect$$_printf_percent$$00000012))
 
 <P><STRONG><a name="[92]"></a>_printf_c</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_c.o(.ARM.Collect$$_printf_percent$$00000013))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40 + Unknown Stack Size
@@ -319,7 +319,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_wstring
 </UL>
 
-<P><STRONG><a name="[fd]"></a>_printf_percent_end</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_percent_end.o(.ARM.Collect$$_printf_percent$$00000017))
+<P><STRONG><a name="[100]"></a>_printf_percent_end</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_percent_end.o(.ARM.Collect$$_printf_percent$$00000017))
 
 <P><STRONG><a name="[a4]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
@@ -329,21 +329,21 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_init
 </UL>
 
-<P><STRONG><a name="[fe]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
+<P><STRONG><a name="[101]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
 
 <P><STRONG><a name="[9c]"></a>__rt_lib_init_lc_common</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
 <BR><BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_locale
 </UL>
 
-<P><STRONG><a name="[ff]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000006))
+<P><STRONG><a name="[102]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000006))
 
-<P><STRONG><a name="[100]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000010))
+<P><STRONG><a name="[103]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000010))
 
-<P><STRONG><a name="[101]"></a>__rt_lib_init_relocate_pie_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
+<P><STRONG><a name="[104]"></a>__rt_lib_init_relocate_pie_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
 
-<P><STRONG><a name="[102]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
+<P><STRONG><a name="[105]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
 
-<P><STRONG><a name="[103]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
+<P><STRONG><a name="[106]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
 
 <P><STRONG><a name="[9e]"></a>__rt_lib_init_lc_ctype_2</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000014))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16 + Unknown Stack Size
@@ -352,9 +352,9 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_get_lc_ctype
 </UL>
 
-<P><STRONG><a name="[104]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
+<P><STRONG><a name="[107]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
 
-<P><STRONG><a name="[105]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
+<P><STRONG><a name="[108]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
 
 <P><STRONG><a name="[9f]"></a>__rt_lib_init_lc_numeric_2</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000018))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16 + Unknown Stack Size
@@ -363,56 +363,56 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_get_lc_numeric
 </UL>
 
-<P><STRONG><a name="[106]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
+<P><STRONG><a name="[109]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
 
-<P><STRONG><a name="[107]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+<P><STRONG><a name="[10a]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
 
-<P><STRONG><a name="[108]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
+<P><STRONG><a name="[10b]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
 
-<P><STRONG><a name="[109]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
+<P><STRONG><a name="[10c]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
 
-<P><STRONG><a name="[10a]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000034))
+<P><STRONG><a name="[10d]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000034))
 
-<P><STRONG><a name="[10b]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
+<P><STRONG><a name="[10e]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
 
-<P><STRONG><a name="[10c]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
+<P><STRONG><a name="[10f]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
 
-<P><STRONG><a name="[10d]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
+<P><STRONG><a name="[110]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
 
-<P><STRONG><a name="[10e]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
+<P><STRONG><a name="[111]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
 
-<P><STRONG><a name="[10f]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
+<P><STRONG><a name="[112]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
 
-<P><STRONG><a name="[110]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000035))
+<P><STRONG><a name="[113]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000035))
 
-<P><STRONG><a name="[111]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
+<P><STRONG><a name="[114]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
 
-<P><STRONG><a name="[112]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000027))
+<P><STRONG><a name="[115]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000027))
 
 <P><STRONG><a name="[a9]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_ls
 </UL>
 
-<P><STRONG><a name="[113]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
+<P><STRONG><a name="[116]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
 
-<P><STRONG><a name="[114]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000007))
+<P><STRONG><a name="[117]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000007))
 
-<P><STRONG><a name="[115]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F))
+<P><STRONG><a name="[118]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F))
 
-<P><STRONG><a name="[116]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000010))
+<P><STRONG><a name="[119]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000010))
 
-<P><STRONG><a name="[117]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A))
+<P><STRONG><a name="[11a]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A))
 
-<P><STRONG><a name="[118]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
+<P><STRONG><a name="[11b]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
 
-<P><STRONG><a name="[119]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
+<P><STRONG><a name="[11c]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
 
 <P><STRONG><a name="[75]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry.o(.ARM.Collect$$rtentry$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
 <LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
 </UL>
 
-<P><STRONG><a name="[11a]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
+<P><STRONG><a name="[11d]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
 
 <P><STRONG><a name="[a1]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry4.o(.ARM.Collect$$rtentry$$00000004))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
@@ -425,17 +425,17 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
 </UL>
 
-<P><STRONG><a name="[11b]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
+<P><STRONG><a name="[11e]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
 
 <P><STRONG><a name="[a5]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
-<BR><BR>[Stack]<UL><LI>Max Depth = 200 + Unknown Stack Size
-<LI>Call Chain = __rt_entry_main &rArr; main &rArr; VL53L1X_SensorInit &rArr; Status_Check &rArr; sprintf &rArr; _printf_char_common &rArr; __printf
+<BR><BR>[Stack]<UL><LI>Max Depth = 228 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_main &rArr; main &rArr; spin_motor &rArr; collect_data &rArr; VL53L1X_CheckForDataReady &rArr; VL53L1X_GetInterruptPolarity &rArr; VL53L1_RdByte &rArr; readI2C &rArr; SysTick_Wait
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
 <LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[11c]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
+<P><STRONG><a name="[11f]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
 
 <P><STRONG><a name="[ca]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
@@ -445,7 +445,7 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
 </UL>
 
-<P><STRONG><a name="[11d]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
+<P><STRONG><a name="[120]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
 
 <P><STRONG><a name="[aa]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
 <BR><BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
@@ -836,11 +836,11 @@ Global Symbols
 <LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Status_Check
 </UL>
 
-<P><STRONG><a name="[11e]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+<P><STRONG><a name="[121]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
-<P><STRONG><a name="[11f]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+<P><STRONG><a name="[122]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
-<P><STRONG><a name="[120]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+<P><STRONG><a name="[123]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
 <P><STRONG><a name="[af]"></a>_printf_pre_padding</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, _printf_pad.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = _printf_pre_padding
@@ -1157,15 +1157,15 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
-<P><STRONG><a name="[121]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+<P><STRONG><a name="[124]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
 
 <P><STRONG><a name="[c9]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
 </UL>
 
-<P><STRONG><a name="[122]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+<P><STRONG><a name="[125]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
 
-<P><STRONG><a name="[f6]"></a>strcmp</STRONG> (Thumb, 124 bytes, Stack size 8 bytes, strcmpv7em.o(.text))
+<P><STRONG><a name="[f9]"></a>strcmp</STRONG> (Thumb, 124 bytes, Stack size 8 bytes, strcmpv7em.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = strcmp
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_get_lc_numeric
@@ -1176,65 +1176,68 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_exit
 </UL>
 
-<P><STRONG><a name="[123]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+<P><STRONG><a name="[126]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[124]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+<P><STRONG><a name="[127]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[125]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, indicate_semi.o(.text), UNUSED)
+<P><STRONG><a name="[128]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, indicate_semi.o(.text), UNUSED)
 
 <P><STRONG><a name="[cb]"></a>FlashAllLEDs</STRONG> (Thumb, 78 bytes, Stack size 24 bytes, onboardleds.o(.text.FlashAllLEDs))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = FlashAllLEDs &rArr; SysTick_Wait10ms &rArr; SysTick_Wait
 </UL>
 <BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait10ms
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spin_motor
-<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;onboardLEDs_Init
+<BR>[Called By]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;onboardLEDs_Init
 </UL>
 
-<P><STRONG><a name="[ef]"></a>FlashI2CError</STRONG> (Thumb, 8 bytes, Stack size 4 bytes, onboardleds.o(.text.FlashI2CError))
+<P><STRONG><a name="[f2]"></a>FlashI2CError</STRONG> (Thumb, 8 bytes, Stack size 4 bytes, onboardleds.o(.text.FlashI2CError))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = FlashI2CError
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readI2C
-<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeI2C
-<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex_nostop
-<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex
+<BR>[Called By]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readI2C
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeI2C
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex_nostop
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex
 </UL>
 
-<P><STRONG><a name="[ee]"></a>FlashI2CRx</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, onboardleds.o(.text.FlashI2CRx))
-<BR><BR>[Called By]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readI2C
+<P><STRONG><a name="[f1]"></a>FlashI2CRx</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, onboardleds.o(.text.FlashI2CRx))
+<BR><BR>[Called By]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readI2C
 </UL>
 
-<P><STRONG><a name="[f0]"></a>FlashI2CTx</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, onboardleds.o(.text.FlashI2CTx))
-<BR><BR>[Called By]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeI2C
-<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex_nostop
-<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex
+<P><STRONG><a name="[f3]"></a>FlashI2CTx</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, onboardleds.o(.text.FlashI2CTx))
+<BR><BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeI2C
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex_nostop
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex
 </UL>
 
-<P><STRONG><a name="[cd]"></a>FlashLED1</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, onboardleds.o(.text.FlashLED1))
-<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = FlashLED1 &rArr; SysTick_Wait10ms &rArr; SysTick_Wait
-</UL>
-<BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait10ms
-</UL>
-<BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-</UL>
-
-<P><STRONG><a name="[ce]"></a>FlashLED3</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, onboardleds.o(.text.FlashLED3))
+<P><STRONG><a name="[cd]"></a>FlashLED3</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, onboardleds.o(.text.FlashLED3))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = FlashLED3 &rArr; SysTick_Wait10ms &rArr; SysTick_Wait
 </UL>
 <BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait10ms
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spin_motor
-<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
+<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spin_motor
 </UL>
 
-<P><STRONG><a name="[e9]"></a>I2C_Init</STRONG> (Thumb, 148 bytes, Stack size 0 bytes, rajesa2_finalproject.o(.text.I2C_Init))
+<P><STRONG><a name="[ce]"></a>FlashLED4</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, onboardleds.o(.text.FlashLED4))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = FlashLED4 &rArr; SysTick_Wait10ms &rArr; SysTick_Wait
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait10ms
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spin_motor
+</UL>
+
+<P><STRONG><a name="[ea]"></a>I2C_Init</STRONG> (Thumb, 148 bytes, Stack size 0 bytes, rajesa2_finalproject.o(.text.I2C_Init))
 <BR><BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[e6]"></a>PLL_Init</STRONG> (Thumb, 322 bytes, Stack size 16 bytes, pll.o(.text.PLL_Init))
+<P><STRONG><a name="[e7]"></a>PLL_Init</STRONG> (Thumb, 316 bytes, Stack size 16 bytes, pll.o(.text.PLL_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = PLL_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[ed]"></a>PortJ_Init</STRONG> (Thumb, 120 bytes, Stack size 0 bytes, rajesa2_finalproject.o(.text.PortJ_Init))
+<BR><BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
 <P><STRONG><a name="[cf]"></a>Status_Check</STRONG> (Thumb, 76 bytes, Stack size 24 bytes, uart.o(.text.Status_Check))
@@ -1245,22 +1248,22 @@ Global Symbols
 <LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_printf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
 </UL>
 
-<P><STRONG><a name="[e7]"></a>SysTick_Init</STRONG> (Thumb, 42 bytes, Stack size 0 bytes, systick.o(.text.SysTick_Init))
+<P><STRONG><a name="[e8]"></a>SysTick_Init</STRONG> (Thumb, 42 bytes, Stack size 0 bytes, systick.o(.text.SysTick_Init))
 <BR><BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
 <P><STRONG><a name="[d1]"></a>SysTick_Wait</STRONG> (Thumb, 54 bytes, Stack size 12 bytes, systick.o(.text.SysTick_Wait))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SysTick_Wait
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spin_motor
-<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_WaitMs
-<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readI2C
-<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeI2C
-<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex_nostop
-<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex
+<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spin_motor
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_WaitMs
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readI2C
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeI2C
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex_nostop
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex
 <LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait10ms
 </UL>
 
@@ -1270,19 +1273,20 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spin_motor
 <LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashAllLEDs
-<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashLED3
-<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashLED1
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashLED4
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashLED3
 </UL>
 
 <P><STRONG><a name="[6e]"></a>SystemInit</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, system_msp432e401y.o(.text.SystemInit))
 <BR>[Address Reference Count : 1]<UL><LI> startup_msp432e401y_uvision.o(.text)
 </UL>
-<P><STRONG><a name="[ec]"></a>UART_InChar</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, uart.o(.text.UART_InChar))
+<P><STRONG><a name="[ef]"></a>UART_InChar</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, uart.o(.text.UART_InChar))
 <BR><BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[ea]"></a>UART_Init</STRONG> (Thumb, 234 bytes, Stack size 8 bytes, uart.o(.text.UART_Init))
+<P><STRONG><a name="[eb]"></a>UART_Init</STRONG> (Thumb, 234 bytes, Stack size 8 bytes, uart.o(.text.UART_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = UART_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -1301,7 +1305,7 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Status_Check
-<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
 </UL>
 
 <P><STRONG><a name="[d3]"></a>VL53L1X_BootState</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, vl53l1x_api.o(.text.VL53L1X_BootState))
@@ -1318,8 +1322,8 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_GetInterruptPolarity
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_RdByte
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
-<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
+<BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
 </UL>
 
 <P><STRONG><a name="[d7]"></a>VL53L1X_ClearInterrupt</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, vl53l1x_api.o(.text.VL53L1X_ClearInterrupt))
@@ -1327,7 +1331,9 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_WrByte
 </UL>
-<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
+<BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
 </UL>
 
 <P><STRONG><a name="[d9]"></a>VL53L1X_GetDistance</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, vl53l1x_api.o(.text.VL53L1X_GetDistance))
@@ -1335,7 +1341,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_RdWord
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
+<BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
 </UL>
 
 <P><STRONG><a name="[d6]"></a>VL53L1X_GetInterruptPolarity</STRONG> (Thumb, 70 bytes, Stack size 24 bytes, vl53l1x_api.o(.text.VL53L1X_GetInterruptPolarity))
@@ -1346,14 +1352,22 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_CheckForDataReady
 </UL>
 
-<P><STRONG><a name="[db]"></a>VL53L1X_SensorInit</STRONG> (Thumb, 284 bytes, Stack size 24 bytes, vl53l1x_api.o(.text.VL53L1X_SensorInit))
+<P><STRONG><a name="[db]"></a>VL53L1X_GetRangeStatus</STRONG> (Thumb, 90 bytes, Stack size 24 bytes, vl53l1x_api.o(.text.VL53L1X_GetRangeStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = VL53L1X_GetRangeStatus &rArr; VL53L1_RdByte &rArr; readI2C &rArr; SysTick_Wait
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_RdByte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
+</UL>
+
+<P><STRONG><a name="[dc]"></a>VL53L1X_SensorInit</STRONG> (Thumb, 284 bytes, Stack size 24 bytes, vl53l1x_api.o(.text.VL53L1X_SensorInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 184 + Unknown Stack Size
 <LI>Call Chain = VL53L1X_SensorInit &rArr; Status_Check &rArr; sprintf &rArr; _printf_char_common &rArr; __printf
 </UL>
-<BR>[Calls]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StopRanging
+<BR>[Calls]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StopRanging
 <LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_printf
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_CheckForDataReady
-<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StartRanging
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StartRanging
 <LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Status_Check
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_ClearInterrupt
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_RdByte
@@ -1362,78 +1376,81 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[dc]"></a>VL53L1X_StartRanging</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, vl53l1x_api.o(.text.VL53L1X_StartRanging))
+<P><STRONG><a name="[dd]"></a>VL53L1X_StartRanging</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, vl53l1x_api.o(.text.VL53L1X_StartRanging))
 <BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = VL53L1X_StartRanging &rArr; VL53L1_WrByte &rArr; writeI2C &rArr; SysTick_Wait
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_WrByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
+<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
 </UL>
 
-<P><STRONG><a name="[dd]"></a>VL53L1X_StopRanging</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, vl53l1x_api.o(.text.VL53L1X_StopRanging))
+<P><STRONG><a name="[de]"></a>VL53L1X_StopRanging</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, vl53l1x_api.o(.text.VL53L1X_StopRanging))
 <BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = VL53L1X_StopRanging &rArr; VL53L1_WrByte &rArr; writeI2C &rArr; SysTick_Wait
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_WrByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
+<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
 </UL>
 
 <P><STRONG><a name="[d4]"></a>VL53L1_RdByte</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, vl53l1_platform_2dx4.o(.text.VL53L1_RdByte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = VL53L1_RdByte &rArr; readI2C &rArr; SysTick_Wait
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readI2C
-<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex
-<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beginRxI2C
-<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beginTxI2C
+<BR>[Calls]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readI2C
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beginRxI2C
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beginTxI2C
 </UL>
-<BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_BootState
+<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_GetRangeStatus
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_BootState
 <LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_GetInterruptPolarity
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_CheckForDataReady
-<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
 </UL>
 
 <P><STRONG><a name="[da]"></a>VL53L1_RdWord</STRONG> (Thumb, 76 bytes, Stack size 24 bytes, vl53l1_platform_2dx4.o(.text.VL53L1_RdWord))
 <BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = VL53L1_RdWord &rArr; readI2C &rArr; SysTick_Wait
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readI2C
-<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex
-<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beginRxI2C
-<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beginTxI2C
+<BR>[Calls]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;readI2C
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beginRxI2C
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beginTxI2C
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_GetDistance
 </UL>
 
-<P><STRONG><a name="[e2]"></a>VL53L1_WaitMs</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, vl53l1_platform_2dx4.o(.text.VL53L1_WaitMs))
+<P><STRONG><a name="[e3]"></a>VL53L1_WaitMs</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, vl53l1_platform_2dx4.o(.text.VL53L1_WaitMs))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = VL53L1_WaitMs &rArr; SysTick_Wait
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
+<BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
 </UL>
 
 <P><STRONG><a name="[d8]"></a>VL53L1_WrByte</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, vl53l1_platform_2dx4.o(.text.VL53L1_WrByte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = VL53L1_WrByte &rArr; writeI2C &rArr; SysTick_Wait
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeI2C
-<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex_nostop
-<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beginTxI2C
+<BR>[Calls]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeI2C
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;writeRegisterIndex_nostop
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;beginTxI2C
 </UL>
-<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StopRanging
-<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StartRanging
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StopRanging
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StartRanging
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_ClearInterrupt
-<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
 </UL>
 
-<P><STRONG><a name="[e0]"></a>beginRxI2C</STRONG> (Thumb, 36 bytes, Stack size 4 bytes, vl53l1_platform_2dx4.o(.text.beginRxI2C))
+<P><STRONG><a name="[e1]"></a>beginRxI2C</STRONG> (Thumb, 36 bytes, Stack size 4 bytes, vl53l1_platform_2dx4.o(.text.beginRxI2C))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = beginRxI2C
 </UL>
 <BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_RdWord
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_RdByte
 </UL>
 
-<P><STRONG><a name="[de]"></a>beginTxI2C</STRONG> (Thumb, 36 bytes, Stack size 4 bytes, vl53l1_platform_2dx4.o(.text.beginTxI2C))
+<P><STRONG><a name="[df]"></a>beginTxI2C</STRONG> (Thumb, 36 bytes, Stack size 4 bytes, vl53l1_platform_2dx4.o(.text.beginTxI2C))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = beginTxI2C
 </UL>
 <BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_RdWord
@@ -1441,47 +1458,57 @@ Global Symbols
 <LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_WrByte
 </UL>
 
-<P><STRONG><a name="[e5]"></a>collect_data</STRONG> (Thumb, 120 bytes, Stack size 16 bytes, rajesa2_finalproject.o(.text.collect_data))
-<BR><BR>[Stack]<UL><LI>Max Depth = 116<LI>Call Chain = collect_data &rArr; VL53L1X_CheckForDataReady &rArr; VL53L1X_GetInterruptPolarity &rArr; VL53L1_RdByte &rArr; readI2C &rArr; SysTick_Wait
+<P><STRONG><a name="[e6]"></a>collect_data</STRONG> (Thumb, 184 bytes, Stack size 32 bytes, rajesa2_finalproject.o(.text.collect_data))
+<BR><BR>[Stack]<UL><LI>Max Depth = 132<LI>Call Chain = collect_data &rArr; VL53L1X_CheckForDataReady &rArr; VL53L1X_GetInterruptPolarity &rArr; VL53L1_RdByte &rArr; readI2C &rArr; SysTick_Wait
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashLED3
+<BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_GetRangeStatus
 <LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_GetDistance
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StopRanging
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_CheckForDataReady
-<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_WaitMs
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StartRanging
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_ClearInterrupt
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_WaitMs
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spin_motor
+<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spin_motor
 </UL>
 
-<P><STRONG><a name="[eb]"></a>init_portL</STRONG> (Thumb, 62 bytes, Stack size 0 bytes, rajesa2_finalproject.o(.text.init_portL))
+<P><STRONG><a name="[ec]"></a>init_portK</STRONG> (Thumb, 62 bytes, Stack size 0 bytes, rajesa2_finalproject.o(.text.init_portK))
 <BR><BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[a6]"></a>main</STRONG> (Thumb, 420 bytes, Stack size 16 bytes, rajesa2_finalproject.o(.text.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 200 + Unknown Stack Size
-<LI>Call Chain = main &rArr; VL53L1X_SensorInit &rArr; Status_Check &rArr; sprintf &rArr; _printf_char_common &rArr; __printf
+<P><STRONG><a name="[ee]"></a>init_portM</STRONG> (Thumb, 62 bytes, Stack size 0 bytes, rajesa2_finalproject.o(.text.init_portM))
+<BR><BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[a6]"></a>main</STRONG> (Thumb, 358 bytes, Stack size 40 bytes, rajesa2_finalproject.o(.text.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 228 + Unknown Stack Size
+<LI>Call Chain = main &rArr; spin_motor &rArr; collect_data &rArr; VL53L1X_CheckForDataReady &rArr; VL53L1X_GetInterruptPolarity &rArr; VL53L1_RdByte &rArr; readI2C &rArr; SysTick_Wait
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sprintf
-<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spin_motor
-<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_portL
-<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_Init
-<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_InChar
-<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Init
-<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;onboardLEDs_Init
-<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashLED1
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spin_motor
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_portM
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init_portK
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PortJ_Init
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_Init
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_InChar
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Init
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;onboardLEDs_Init
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashLED4
 <LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_BootState
-<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StopRanging
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StopRanging
 <LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_printf
-<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StartRanging
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_StartRanging
 <LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Status_Check
-<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_ClearInterrupt
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1X_SensorInit
 <LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait10ms
-<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Init
-<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PLL_Init
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Init
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PLL_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
-<P><STRONG><a name="[e8]"></a>onboardLEDs_Init</STRONG> (Thumb, 212 bytes, Stack size 8 bytes, onboardleds.o(.text.onboardLEDs_Init))
+<P><STRONG><a name="[e9]"></a>onboardLEDs_Init</STRONG> (Thumb, 212 bytes, Stack size 8 bytes, onboardleds.o(.text.onboardLEDs_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = onboardLEDs_Init &rArr; FlashAllLEDs &rArr; SysTick_Wait10ms &rArr; SysTick_Wait
 </UL>
 <BR>[Calls]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashAllLEDs
@@ -1489,82 +1516,83 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[e1]"></a>readI2C</STRONG> (Thumb, 122 bytes, Stack size 24 bytes, vl53l1_platform_2dx4.o(.text.readI2C))
+<P><STRONG><a name="[e2]"></a>readI2C</STRONG> (Thumb, 122 bytes, Stack size 24 bytes, vl53l1_platform_2dx4.o(.text.readI2C))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = readI2C &rArr; SysTick_Wait
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CRx
-<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CError
+<BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CRx
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CError
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait
 </UL>
 <BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_RdWord
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_RdByte
 </UL>
 
-<P><STRONG><a name="[ed]"></a>spin_motor</STRONG> (Thumb, 294 bytes, Stack size 40 bytes, rajesa2_finalproject.o(.text.spin_motor))
-<BR><BR>[Stack]<UL><LI>Max Depth = 156<LI>Call Chain = spin_motor &rArr; collect_data &rArr; VL53L1X_CheckForDataReady &rArr; VL53L1X_GetInterruptPolarity &rArr; VL53L1_RdByte &rArr; readI2C &rArr; SysTick_Wait
+<P><STRONG><a name="[f0]"></a>spin_motor</STRONG> (Thumb, 392 bytes, Stack size 56 bytes, rajesa2_finalproject.o(.text.spin_motor))
+<BR><BR>[Stack]<UL><LI>Max Depth = 188<LI>Call Chain = spin_motor &rArr; collect_data &rArr; VL53L1X_CheckForDataReady &rArr; VL53L1X_GetInterruptPolarity &rArr; VL53L1_RdByte &rArr; readI2C &rArr; SysTick_Wait
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
-<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashAllLEDs
-<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashLED3
+<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collect_data
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashLED4
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashLED3
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait10ms
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[e4]"></a>writeI2C</STRONG> (Thumb, 276 bytes, Stack size 32 bytes, vl53l1_platform_2dx4.o(.text.writeI2C))
+<P><STRONG><a name="[e5]"></a>writeI2C</STRONG> (Thumb, 276 bytes, Stack size 32 bytes, vl53l1_platform_2dx4.o(.text.writeI2C))
 <BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = writeI2C &rArr; SysTick_Wait
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CError
-<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CTx
+<BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CError
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CTx
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_WrByte
 </UL>
 
-<P><STRONG><a name="[df]"></a>writeRegisterIndex</STRONG> (Thumb, 240 bytes, Stack size 24 bytes, vl53l1_platform_2dx4.o(.text.writeRegisterIndex))
+<P><STRONG><a name="[e0]"></a>writeRegisterIndex</STRONG> (Thumb, 240 bytes, Stack size 24 bytes, vl53l1_platform_2dx4.o(.text.writeRegisterIndex))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = writeRegisterIndex &rArr; SysTick_Wait
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CError
-<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CTx
+<BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CError
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CTx
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait
 </UL>
 <BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_RdWord
 <LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_RdByte
 </UL>
 
-<P><STRONG><a name="[e3]"></a>writeRegisterIndex_nostop</STRONG> (Thumb, 240 bytes, Stack size 24 bytes, vl53l1_platform_2dx4.o(.text.writeRegisterIndex_nostop))
+<P><STRONG><a name="[e4]"></a>writeRegisterIndex_nostop</STRONG> (Thumb, 240 bytes, Stack size 24 bytes, vl53l1_platform_2dx4.o(.text.writeRegisterIndex_nostop))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = writeRegisterIndex_nostop &rArr; SysTick_Wait
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CError
-<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CTx
+<BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CError
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FlashI2CTx
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Wait
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VL53L1_WrByte
 </UL>
 
 <P><STRONG><a name="[be]"></a>_btod_d2e</STRONG> (Thumb, 62 bytes, Stack size 0 bytes, btod.o(CL$$btod_d2e))
-<BR><BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_d2e_norm_op1
+<BR><BR>[Calls]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_d2e_norm_op1
 </UL>
 <BR>[Called By]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 </UL>
 
-<P><STRONG><a name="[f2]"></a>_d2e_denorm_low</STRONG> (Thumb, 70 bytes, Stack size 0 bytes, btod.o(CL$$btod_d2e_denorm_low))
-<BR><BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_d2e_norm_op1
+<P><STRONG><a name="[f5]"></a>_d2e_denorm_low</STRONG> (Thumb, 70 bytes, Stack size 0 bytes, btod.o(CL$$btod_d2e_denorm_low))
+<BR><BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_d2e_norm_op1
 </UL>
 
-<P><STRONG><a name="[f1]"></a>_d2e_norm_op1</STRONG> (Thumb, 96 bytes, Stack size 0 bytes, btod.o(CL$$btod_d2e_norm_op1))
-<BR><BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_d2e_denorm_low
+<P><STRONG><a name="[f4]"></a>_d2e_norm_op1</STRONG> (Thumb, 96 bytes, Stack size 0 bytes, btod.o(CL$$btod_d2e_norm_op1))
+<BR><BR>[Calls]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_d2e_denorm_low
 </UL>
 <BR>[Called By]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_btod_d2e
 </UL>
 
-<P><STRONG><a name="[f3]"></a>__btod_div_common</STRONG> (Thumb, 696 bytes, Stack size 24 bytes, btod.o(CL$$btod_div_common))
+<P><STRONG><a name="[f6]"></a>__btod_div_common</STRONG> (Thumb, 696 bytes, Stack size 24 bytes, btod.o(CL$$btod_div_common))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __btod_div_common
 </UL>
 <BR>[Called By]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_btod_ediv
 </UL>
 
-<P><STRONG><a name="[f4]"></a>_e2e</STRONG> (Thumb, 220 bytes, Stack size 24 bytes, btod.o(CL$$btod_e2e))
+<P><STRONG><a name="[f7]"></a>_e2e</STRONG> (Thumb, 220 bytes, Stack size 24 bytes, btod.o(CL$$btod_e2e))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = _e2e
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_btod_emul
@@ -1574,8 +1602,8 @@ Global Symbols
 <P><STRONG><a name="[bf]"></a>_btod_ediv</STRONG> (Thumb, 42 bytes, Stack size 28 bytes, btod.o(CL$$btod_ediv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = _btod_ediv &rArr; _e2e
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_e2e
-<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__btod_div_common
+<BR>[Calls]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_e2e
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__btod_div_common
 </UL>
 <BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_btod_etento
 <LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
@@ -1584,14 +1612,14 @@ Global Symbols
 <P><STRONG><a name="[c0]"></a>_btod_emul</STRONG> (Thumb, 42 bytes, Stack size 28 bytes, btod.o(CL$$btod_emul))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = _btod_emul &rArr; _e2e
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__btod_mult_common
-<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_e2e
+<BR>[Calls]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__btod_mult_common
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_e2e
 </UL>
 <BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_btod_etento
 <LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 </UL>
 
-<P><STRONG><a name="[f5]"></a>__btod_mult_common</STRONG> (Thumb, 580 bytes, Stack size 16 bytes, btod.o(CL$$btod_mult_common))
+<P><STRONG><a name="[f8]"></a>__btod_mult_common</STRONG> (Thumb, 580 bytes, Stack size 16 bytes, btod.o(CL$$btod_mult_common))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __btod_mult_common
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_btod_emul
@@ -1611,7 +1639,7 @@ Global Symbols
 <P><STRONG><a name="[a0]"></a>_get_lc_numeric</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, lc_numeric_c.o(locale$$code))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = _get_lc_numeric &rArr; strcmp
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcmp
+<BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcmp
 </UL>
 <BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init_lc_numeric_2
 </UL>
@@ -1619,7 +1647,7 @@ Global Symbols
 <P><STRONG><a name="[72]"></a>_get_lc_ctype</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, lc_ctype_c.o(locale$$code))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = _get_lc_ctype &rArr; strcmp
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcmp
+<BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcmp
 </UL>
 <BR>[Called By]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init_lc_ctype_2
 </UL>
@@ -1629,9 +1657,9 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init_fp_1
 </UL>
 
-<P><STRONG><a name="[126]"></a>__fplib_config_fpu_vfp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
+<P><STRONG><a name="[129]"></a>__fplib_config_fpu_vfp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
 
-<P><STRONG><a name="[127]"></a>__fplib_config_pureend_doubles</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
+<P><STRONG><a name="[12a]"></a>__fplib_config_pureend_doubles</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
 
 <P><STRONG><a name="[7d]"></a>_printf_fp_dec</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, printf1.o(x$fpl$printf1))
 <BR><BR>[Stack]<UL><LI>Max Depth = 324<LI>Call Chain = _printf_fp_dec &rArr; _printf_fp_dec_real &rArr; _fp_digits &rArr; _btod_etento &rArr; _btod_emul &rArr; _e2e

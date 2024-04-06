@@ -214,46 +214,56 @@ Section Cross References
     uart.o(.text.Status_Check) refers to sprintf.o(.text) for sprintf
     uart.o(.ARM.exidx.text.Status_Check) refers to uart.o(.text.Status_Check) for [Anonymous Symbol]
     rajesa2_finalproject.o(.ARM.exidx.text.I2C_Init) refers to rajesa2_finalproject.o(.text.I2C_Init) for [Anonymous Symbol]
+    rajesa2_finalproject.o(.ARM.exidx.text.PortJ_Init) refers to rajesa2_finalproject.o(.text.PortJ_Init) for [Anonymous Symbol]
     rajesa2_finalproject.o(.ARM.exidx.text.PortG_Init) refers to rajesa2_finalproject.o(.text.PortG_Init) for [Anonymous Symbol]
-    rajesa2_finalproject.o(.text.VL53L1X_XSHUT) refers to onboardleds.o(.text.FlashAllLEDs) for FlashAllLEDs
+    rajesa2_finalproject.o(.ARM.exidx.text.init_portK) refers to rajesa2_finalproject.o(.text.init_portK) for [Anonymous Symbol]
+    rajesa2_finalproject.o(.ARM.exidx.text.init_portM) refers to rajesa2_finalproject.o(.text.init_portM) for [Anonymous Symbol]
+    rajesa2_finalproject.o(.text.VL53L1X_XSHUT) refers to onboardleds.o(.text.FlashLED4) for FlashLED4
     rajesa2_finalproject.o(.text.VL53L1X_XSHUT) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
     rajesa2_finalproject.o(.ARM.exidx.text.VL53L1X_XSHUT) refers to rajesa2_finalproject.o(.text.VL53L1X_XSHUT) for [Anonymous Symbol]
-    rajesa2_finalproject.o(.ARM.exidx.text.init_portL) refers to rajesa2_finalproject.o(.text.init_portL) for [Anonymous Symbol]
-    rajesa2_finalproject.o(.text.collect_data) refers to rajesa2_finalproject.o(.bss.dataReady) for dataReady
     rajesa2_finalproject.o(.text.collect_data) refers to rajesa2_finalproject.o(.data.dev) for dev
-    rajesa2_finalproject.o(.text.collect_data) refers to vl53l1x_api.o(.text.VL53L1X_CheckForDataReady) for VL53L1X_CheckForDataReady
+    rajesa2_finalproject.o(.text.collect_data) refers to vl53l1x_api.o(.text.VL53L1X_StartRanging) for VL53L1X_StartRanging
     rajesa2_finalproject.o(.text.collect_data) refers to rajesa2_finalproject.o(.bss.status) for status
-    rajesa2_finalproject.o(.text.collect_data) refers to onboardleds.o(.text.FlashLED3) for FlashLED3
+    rajesa2_finalproject.o(.text.collect_data) refers to vl53l1x_api.o(.text.VL53L1X_CheckForDataReady) for VL53L1X_CheckForDataReady
     rajesa2_finalproject.o(.text.collect_data) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WaitMs) for VL53L1_WaitMs
+    rajesa2_finalproject.o(.text.collect_data) refers to vl53l1x_api.o(.text.VL53L1X_StopRanging) for VL53L1X_StopRanging
+    rajesa2_finalproject.o(.text.collect_data) refers to vl53l1x_api.o(.text.VL53L1X_ClearInterrupt) for VL53L1X_ClearInterrupt
+    rajesa2_finalproject.o(.text.collect_data) refers to vl53l1x_api.o(.text.VL53L1X_GetRangeStatus) for VL53L1X_GetRangeStatus
     rajesa2_finalproject.o(.text.collect_data) refers to vl53l1x_api.o(.text.VL53L1X_GetDistance) for VL53L1X_GetDistance
     rajesa2_finalproject.o(.ARM.exidx.text.collect_data) refers to rajesa2_finalproject.o(.text.collect_data) for [Anonymous Symbol]
-    rajesa2_finalproject.o(.text.spin_motor) refers to rajesa2_finalproject.o(.data.STEPS) for STEPS
     rajesa2_finalproject.o(.text.spin_motor) refers to rajesa2_finalproject.o(.data.rev_motorSteps) for rev_motorSteps
     rajesa2_finalproject.o(.text.spin_motor) refers to rajesa2_finalproject.o(.data.motorSteps) for motorSteps
     rajesa2_finalproject.o(.text.spin_motor) refers to systick.o(.text.SysTick_Wait) for SysTick_Wait
     rajesa2_finalproject.o(.text.spin_motor) refers to rajesa2_finalproject.o(.text.collect_data) for collect_data
     rajesa2_finalproject.o(.text.spin_motor) refers to onboardleds.o(.text.FlashLED3) for FlashLED3
-    rajesa2_finalproject.o(.text.spin_motor) refers to onboardleds.o(.text.FlashAllLEDs) for FlashAllLEDs
+    rajesa2_finalproject.o(.text.spin_motor) refers to onboardleds.o(.text.FlashLED4) for FlashLED4
+    rajesa2_finalproject.o(.text.spin_motor) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
     rajesa2_finalproject.o(.ARM.exidx.text.spin_motor) refers to rajesa2_finalproject.o(.text.spin_motor) for [Anonymous Symbol]
-    rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.data.STEPS) for STEPS
+    rajesa2_finalproject.o(.text.measure_bus) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
+    rajesa2_finalproject.o(.ARM.exidx.text.measure_bus) refers to rajesa2_finalproject.o(.text.measure_bus) for [Anonymous Symbol]
     rajesa2_finalproject.o(.text.main) refers to pll.o(.text.PLL_Init) for PLL_Init
     rajesa2_finalproject.o(.text.main) refers to systick.o(.text.SysTick_Init) for SysTick_Init
     rajesa2_finalproject.o(.text.main) refers to onboardleds.o(.text.onboardLEDs_Init) for onboardLEDs_Init
     rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.text.I2C_Init) for I2C_Init
     rajesa2_finalproject.o(.text.main) refers to uart.o(.text.UART_Init) for UART_Init
-    rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.text.init_portL) for init_portL
+    rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.text.init_portK) for init_portK
+    rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.text.PortJ_Init) for PortJ_Init
+    rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.text.init_portM) for init_portM
     rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.data.dev) for dev
     rajesa2_finalproject.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_BootState) for VL53L1X_BootState
     rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.bss.status) for status
     rajesa2_finalproject.o(.text.main) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
     rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.rodata.str1.1) for .L.str
     rajesa2_finalproject.o(.text.main) refers to uart.o(.text.UART_printf) for UART_printf
+    rajesa2_finalproject.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_ClearInterrupt) for VL53L1X_ClearInterrupt
     rajesa2_finalproject.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_SensorInit) for VL53L1X_SensorInit
     rajesa2_finalproject.o(.text.main) refers to uart.o(.text.Status_Check) for Status_Check
     rajesa2_finalproject.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_StartRanging) for VL53L1X_StartRanging
     rajesa2_finalproject.o(.text.main) refers to uart.o(.text.UART_InChar) for UART_InChar
-    rajesa2_finalproject.o(.text.main) refers to onboardleds.o(.text.FlashLED1) for FlashLED1
+    rajesa2_finalproject.o(.text.main) refers to onboardleds.o(.text.FlashLED4) for FlashLED4
+    rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.bss.distances) for distances
     rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.text.spin_motor) for spin_motor
+    rajesa2_finalproject.o(.text.main) refers to rajesa2_finalproject.o(.bss.float_distances) for float_distances
     rajesa2_finalproject.o(.text.main) refers to sprintf.o(.text) for sprintf
     rajesa2_finalproject.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_StopRanging) for VL53L1X_StopRanging
     rajesa2_finalproject.o(.ARM.exidx.text.main) refers to rajesa2_finalproject.o(.text.main) for [Anonymous Symbol]
@@ -676,7 +686,6 @@ Removing Unused input sections from the image.
     Removing vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetSpadNb), (8 bytes).
     Removing vl53l1x_api.o(.text.VL53L1X_GetAmbientRate), (50 bytes).
     Removing vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetAmbientRate), (8 bytes).
-    Removing vl53l1x_api.o(.text.VL53L1X_GetRangeStatus), (90 bytes).
     Removing vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetRangeStatus), (8 bytes).
     Removing vl53l1x_api.o(.text.VL53L1X_GetResult), (160 bytes).
     Removing vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetResult), (8 bytes).
@@ -714,13 +723,12 @@ Removing Unused input sections from the image.
     Removing vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetSigmaThreshold), (8 bytes).
     Removing vl53l1x_api.o(.text.VL53L1X_StartTemperatureUpdate), (160 bytes).
     Removing vl53l1x_api.o(.ARM.exidx.text.VL53L1X_StartTemperatureUpdate), (8 bytes).
-    Removing vl53l1x_api.o(.rodata.status_rtn), (24 bytes).
     Removing onboardleds.o(.text), (0 bytes).
+    Removing onboardleds.o(.text.FlashLED1), (66 bytes).
     Removing onboardleds.o(.ARM.exidx.text.FlashLED1), (8 bytes).
     Removing onboardleds.o(.text.FlashLED2), (66 bytes).
     Removing onboardleds.o(.ARM.exidx.text.FlashLED2), (8 bytes).
     Removing onboardleds.o(.ARM.exidx.text.FlashLED3), (8 bytes).
-    Removing onboardleds.o(.text.FlashLED4), (66 bytes).
     Removing onboardleds.o(.ARM.exidx.text.FlashLED4), (8 bytes).
     Removing onboardleds.o(.ARM.exidx.text.FlashAllLEDs), (8 bytes).
     Removing onboardleds.o(.ARM.exidx.text.FlashI2CTx), (8 bytes).
@@ -735,22 +743,27 @@ Removing Unused input sections from the image.
     Removing uart.o(.ARM.exidx.text.Status_Check), (8 bytes).
     Removing rajesa2_finalproject.o(.text), (0 bytes).
     Removing rajesa2_finalproject.o(.ARM.exidx.text.I2C_Init), (8 bytes).
+    Removing rajesa2_finalproject.o(.ARM.exidx.text.PortJ_Init), (8 bytes).
     Removing rajesa2_finalproject.o(.text.PortG_Init), (102 bytes).
     Removing rajesa2_finalproject.o(.ARM.exidx.text.PortG_Init), (8 bytes).
-    Removing rajesa2_finalproject.o(.text.VL53L1X_XSHUT), (62 bytes).
+    Removing rajesa2_finalproject.o(.ARM.exidx.text.init_portK), (8 bytes).
+    Removing rajesa2_finalproject.o(.ARM.exidx.text.init_portM), (8 bytes).
+    Removing rajesa2_finalproject.o(.text.VL53L1X_XSHUT), (64 bytes).
     Removing rajesa2_finalproject.o(.ARM.exidx.text.VL53L1X_XSHUT), (8 bytes).
-    Removing rajesa2_finalproject.o(.ARM.exidx.text.init_portL), (8 bytes).
     Removing rajesa2_finalproject.o(.ARM.exidx.text.collect_data), (8 bytes).
     Removing rajesa2_finalproject.o(.ARM.exidx.text.spin_motor), (8 bytes).
+    Removing rajesa2_finalproject.o(.text.measure_bus), (28 bytes).
+    Removing rajesa2_finalproject.o(.ARM.exidx.text.measure_bus), (8 bytes).
     Removing rajesa2_finalproject.o(.ARM.exidx.text.main), (8 bytes).
     Removing rajesa2_finalproject.o(.data.ToFMode), (1 bytes).
+    Removing rajesa2_finalproject.o(.bss.dataReady), (1 bytes).
     Removing rajesa2_finalproject.o(.ARM.use_no_argv), (4 bytes).
     Removing system_msp432e401y.o(.text), (0 bytes).
     Removing system_msp432e401y.o(.text.SystemCoreClockUpdate), (342 bytes).
     Removing system_msp432e401y.o(.ARM.exidx.text.SystemCoreClockUpdate), (8 bytes).
     Removing system_msp432e401y.o(.ARM.exidx.text.SystemInit), (8 bytes).
 
-140 unused section(s) (total 5739 bytes) removed from the image.
+143 unused section(s) (total 5680 bytes) removed from the image.
 
 ==============================================================================
 
@@ -1026,105 +1039,110 @@ Image Symbol Table
     [Anonymous Symbol]                       0x000014fc   Section        0  onboardleds.o(.text.FlashI2CError)
     [Anonymous Symbol]                       0x00001504   Section        0  onboardleds.o(.text.FlashI2CRx)
     [Anonymous Symbol]                       0x00001508   Section        0  onboardleds.o(.text.FlashI2CTx)
-    [Anonymous Symbol]                       0x0000150c   Section        0  onboardleds.o(.text.FlashLED1)
-    [Anonymous Symbol]                       0x00001550   Section        0  onboardleds.o(.text.FlashLED3)
+    [Anonymous Symbol]                       0x0000150c   Section        0  onboardleds.o(.text.FlashLED3)
+    [Anonymous Symbol]                       0x00001550   Section        0  onboardleds.o(.text.FlashLED4)
     [Anonymous Symbol]                       0x00001594   Section        0  rajesa2_finalproject.o(.text.I2C_Init)
     [Anonymous Symbol]                       0x00001628   Section        0  pll.o(.text.PLL_Init)
-    [Anonymous Symbol]                       0x0000176c   Section        0  uart.o(.text.Status_Check)
-    [Anonymous Symbol]                       0x000017b8   Section        0  systick.o(.text.SysTick_Init)
-    [Anonymous Symbol]                       0x000017e4   Section        0  systick.o(.text.SysTick_Wait)
-    [Anonymous Symbol]                       0x0000181c   Section        0  systick.o(.text.SysTick_Wait10ms)
-    [Anonymous Symbol]                       0x0000184c   Section        0  system_msp432e401y.o(.text.SystemInit)
-    [Anonymous Symbol]                       0x00001870   Section        0  uart.o(.text.UART_InChar)
-    [Anonymous Symbol]                       0x00001894   Section        0  uart.o(.text.UART_Init)
-    [Anonymous Symbol]                       0x00001980   Section        0  uart.o(.text.UART_OutChar)
-    [Anonymous Symbol]                       0x000019b0   Section        0  uart.o(.text.UART_printf)
-    [Anonymous Symbol]                       0x000019dc   Section        0  vl53l1x_api.o(.text.VL53L1X_BootState)
-    [Anonymous Symbol]                       0x00001a14   Section        0  vl53l1x_api.o(.text.VL53L1X_CheckForDataReady)
-    [Anonymous Symbol]                       0x00001a7c   Section        0  vl53l1x_api.o(.text.VL53L1X_ClearInterrupt)
-    [Anonymous Symbol]                       0x00001aa4   Section        0  vl53l1x_api.o(.text.VL53L1X_GetDistance)
-    [Anonymous Symbol]                       0x00001ad4   Section        0  vl53l1x_api.o(.text.VL53L1X_GetInterruptPolarity)
-    [Anonymous Symbol]                       0x00001b1c   Section        0  vl53l1x_api.o(.text.VL53L1X_SensorInit)
-    [Anonymous Symbol]                       0x00001c38   Section        0  vl53l1x_api.o(.text.VL53L1X_StartRanging)
-    [Anonymous Symbol]                       0x00001c60   Section        0  vl53l1x_api.o(.text.VL53L1X_StopRanging)
-    [Anonymous Symbol]                       0x00001c84   Section        0  vl53l1_platform_2dx4.o(.text.VL53L1_RdByte)
-    [Anonymous Symbol]                       0x00001cb8   Section        0  vl53l1_platform_2dx4.o(.text.VL53L1_RdWord)
-    [Anonymous Symbol]                       0x00001d04   Section        0  vl53l1_platform_2dx4.o(.text.VL53L1_WaitMs)
-    [Anonymous Symbol]                       0x00001d3c   Section        0  vl53l1_platform_2dx4.o(.text.VL53L1_WrByte)
-    [Anonymous Symbol]                       0x00001d6c   Section        0  vl53l1_platform_2dx4.o(.text.beginRxI2C)
-    [Anonymous Symbol]                       0x00001d90   Section        0  vl53l1_platform_2dx4.o(.text.beginTxI2C)
-    [Anonymous Symbol]                       0x00001db4   Section        0  rajesa2_finalproject.o(.text.collect_data)
-    [Anonymous Symbol]                       0x00001e2c   Section        0  rajesa2_finalproject.o(.text.init_portL)
-    [Anonymous Symbol]                       0x00001e6c   Section        0  rajesa2_finalproject.o(.text.main)
-    [Anonymous Symbol]                       0x00002010   Section        0  onboardleds.o(.text.onboardLEDs_Init)
-    [Anonymous Symbol]                       0x000020e4   Section        0  vl53l1_platform_2dx4.o(.text.readI2C)
-    [Anonymous Symbol]                       0x00002160   Section        0  rajesa2_finalproject.o(.text.spin_motor)
-    [Anonymous Symbol]                       0x00002288   Section        0  vl53l1_platform_2dx4.o(.text.writeI2C)
-    [Anonymous Symbol]                       0x0000239c   Section        0  vl53l1_platform_2dx4.o(.text.writeRegisterIndex)
-    [Anonymous Symbol]                       0x0000248c   Section        0  vl53l1_platform_2dx4.o(.text.writeRegisterIndex_nostop)
-    CL$$btod_d2e                             0x0000257c   Section       62  btod.o(CL$$btod_d2e)
-    CL$$btod_d2e_denorm_low                  0x000025ba   Section       70  btod.o(CL$$btod_d2e_denorm_low)
-    CL$$btod_d2e_norm_op1                    0x00002600   Section       96  btod.o(CL$$btod_d2e_norm_op1)
-    CL$$btod_div_common                      0x00002660   Section      824  btod.o(CL$$btod_div_common)
-    CL$$btod_e2e                             0x00002998   Section      220  btod.o(CL$$btod_e2e)
-    CL$$btod_ediv                            0x00002a74   Section       42  btod.o(CL$$btod_ediv)
-    CL$$btod_emul                            0x00002a9e   Section       42  btod.o(CL$$btod_emul)
-    CL$$btod_mult_common                     0x00002ac8   Section      580  btod.o(CL$$btod_mult_common)
-    i.__ARM_fpclassify                       0x00002d0c   Section        0  fpclassify.o(i.__ARM_fpclassify)
-    i._is_digit                              0x00002d3c   Section        0  __printf_wp.o(i._is_digit)
-    locale$$code                             0x00002d4c   Section       44  lc_numeric_c.o(locale$$code)
-    locale$$code                             0x00002d78   Section       44  lc_ctype_c.o(locale$$code)
-    $v0                                      0x00002da4   Number         0  fpinit.o(x$fpl$fpinit)
-    x$fpl$fpinit                             0x00002da4   Section       26  fpinit.o(x$fpl$fpinit)
-    $v0                                      0x00002dbe   Number         0  printf1.o(x$fpl$printf1)
-    x$fpl$printf1                            0x00002dbe   Section        4  printf1.o(x$fpl$printf1)
-    $v0                                      0x00002dc2   Number         0  printf2.o(x$fpl$printf2)
-    x$fpl$printf2                            0x00002dc2   Section        4  printf2.o(x$fpl$printf2)
-    x$fpl$usenofp                            0x00002dc6   Section        0  usenofp.o(x$fpl$usenofp)
-    initial_mbstate                          0x00002dc8   Data           8  _printf_wctomb.o(.constdata)
-    .constdata                               0x00002dc8   Section        8  _printf_wctomb.o(.constdata)
-    uc_hextab                                0x00002dd0   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
-    .constdata                               0x00002dd0   Section       40  _printf_hex_int_ll_ptr.o(.constdata)
-    lc_hextab                                0x00002de4   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
-    maptable                                 0x00002df8   Data          17  __printf_flags_ss_wp.o(.constdata)
-    .constdata                               0x00002df8   Section       17  __printf_flags_ss_wp.o(.constdata)
-    lc_hextab                                0x00002e09   Data          19  _printf_fp_hex.o(.constdata)
-    .constdata                               0x00002e09   Section       38  _printf_fp_hex.o(.constdata)
-    uc_hextab                                0x00002e1c   Data          19  _printf_fp_hex.o(.constdata)
-    tenpwrs_x                                0x00002e30   Data          60  bigflt0.o(.constdata)
-    .constdata                               0x00002e30   Section      148  bigflt0.o(.constdata)
-    tenpwrs_i                                0x00002e6c   Data          64  bigflt0.o(.constdata)
-    .L.str.1                                 0x00002f1f   Data          29  vl53l1x_api.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00002f1f   Section        0  vl53l1x_api.o(.rodata.str1.1)
-    .L.str                                   0x00002f3c   Data          22  vl53l1x_api.o(.rodata.str1.1)
-    .L.str                                   0x00002f52   Data          20  uart.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00002f52   Section        0  uart.o(.rodata.str1.1)
-    .L.str.1                                 0x00002f66   Data          15  uart.o(.rodata.str1.1)
-    .L.str                                   0x00002f75   Data          19  rajesa2_finalproject.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00002f75   Section        0  rajesa2_finalproject.o(.rodata.str1.1)
-    .L.str.3                                 0x00002f88   Data           5  rajesa2_finalproject.o(.rodata.str1.1)
-    .L.str.4                                 0x00002f8d   Data           4  rajesa2_finalproject.o(.rodata.str1.1)
-    .L.str.2                                 0x00002f91   Data          13  rajesa2_finalproject.o(.rodata.str1.1)
-    .L.str.1                                 0x00002f9e   Data          11  rajesa2_finalproject.o(.rodata.str1.1)
-    locale$$data                             0x00002fcc   Section       28  lc_numeric_c.o(locale$$data)
-    __lcnum_c_name                           0x00002fd0   Data           2  lc_numeric_c.o(locale$$data)
-    __lcnum_c_start                          0x00002fd8   Data           0  lc_numeric_c.o(locale$$data)
-    __lcnum_c_point                          0x00002fe4   Data           0  lc_numeric_c.o(locale$$data)
-    __lcnum_c_thousands                      0x00002fe6   Data           0  lc_numeric_c.o(locale$$data)
-    __lcnum_c_grouping                       0x00002fe7   Data           0  lc_numeric_c.o(locale$$data)
-    __lcnum_c_end                            0x00002fe8   Data           0  lc_numeric_c.o(locale$$data)
-    locale$$data                             0x00002fe8   Section      272  lc_ctype_c.o(locale$$data)
-    __lcctype_c_name                         0x00002fec   Data           2  lc_ctype_c.o(locale$$data)
-    __lcctype_c_start                        0x00002ff4   Data           0  lc_ctype_c.o(locale$$data)
-    __lcctype_c_end                          0x000030f8   Data           0  lc_ctype_c.o(locale$$data)
-    .bss                                     0x20000030   Section       96  libspace.o(.bss)
-    printf_buffer                            0x20000091   Data        1023  uart.o(.bss.printf_buffer)
-    [Anonymous Symbol]                       0x20000091   Section        0  uart.o(.bss.printf_buffer)
-    Heap_Mem                                 0x20000498   Data           0  startup_msp432e401y_uvision.o(HEAP)
-    Stack_Mem                                0x20000498   Data         512  startup_msp432e401y_uvision.o(STACK)
-    HEAP                                     0x20000498   Section        0  startup_msp432e401y_uvision.o(HEAP)
-    STACK                                    0x20000498   Section      512  startup_msp432e401y_uvision.o(STACK)
-    __initial_sp                             0x20000698   Data           0  startup_msp432e401y_uvision.o(STACK)
+    [Anonymous Symbol]                       0x00001764   Section        0  rajesa2_finalproject.o(.text.PortJ_Init)
+    [Anonymous Symbol]                       0x000017dc   Section        0  uart.o(.text.Status_Check)
+    [Anonymous Symbol]                       0x00001828   Section        0  systick.o(.text.SysTick_Init)
+    [Anonymous Symbol]                       0x00001854   Section        0  systick.o(.text.SysTick_Wait)
+    [Anonymous Symbol]                       0x0000188c   Section        0  systick.o(.text.SysTick_Wait10ms)
+    [Anonymous Symbol]                       0x000018bc   Section        0  system_msp432e401y.o(.text.SystemInit)
+    [Anonymous Symbol]                       0x000018e0   Section        0  uart.o(.text.UART_InChar)
+    [Anonymous Symbol]                       0x00001904   Section        0  uart.o(.text.UART_Init)
+    [Anonymous Symbol]                       0x000019f0   Section        0  uart.o(.text.UART_OutChar)
+    [Anonymous Symbol]                       0x00001a20   Section        0  uart.o(.text.UART_printf)
+    [Anonymous Symbol]                       0x00001a4c   Section        0  vl53l1x_api.o(.text.VL53L1X_BootState)
+    [Anonymous Symbol]                       0x00001a84   Section        0  vl53l1x_api.o(.text.VL53L1X_CheckForDataReady)
+    [Anonymous Symbol]                       0x00001aec   Section        0  vl53l1x_api.o(.text.VL53L1X_ClearInterrupt)
+    [Anonymous Symbol]                       0x00001b14   Section        0  vl53l1x_api.o(.text.VL53L1X_GetDistance)
+    [Anonymous Symbol]                       0x00001b44   Section        0  vl53l1x_api.o(.text.VL53L1X_GetInterruptPolarity)
+    [Anonymous Symbol]                       0x00001b8c   Section        0  vl53l1x_api.o(.text.VL53L1X_GetRangeStatus)
+    [Anonymous Symbol]                       0x00001be8   Section        0  vl53l1x_api.o(.text.VL53L1X_SensorInit)
+    [Anonymous Symbol]                       0x00001d04   Section        0  vl53l1x_api.o(.text.VL53L1X_StartRanging)
+    [Anonymous Symbol]                       0x00001d2c   Section        0  vl53l1x_api.o(.text.VL53L1X_StopRanging)
+    [Anonymous Symbol]                       0x00001d50   Section        0  vl53l1_platform_2dx4.o(.text.VL53L1_RdByte)
+    [Anonymous Symbol]                       0x00001d84   Section        0  vl53l1_platform_2dx4.o(.text.VL53L1_RdWord)
+    [Anonymous Symbol]                       0x00001dd0   Section        0  vl53l1_platform_2dx4.o(.text.VL53L1_WaitMs)
+    [Anonymous Symbol]                       0x00001e08   Section        0  vl53l1_platform_2dx4.o(.text.VL53L1_WrByte)
+    [Anonymous Symbol]                       0x00001e38   Section        0  vl53l1_platform_2dx4.o(.text.beginRxI2C)
+    [Anonymous Symbol]                       0x00001e5c   Section        0  vl53l1_platform_2dx4.o(.text.beginTxI2C)
+    [Anonymous Symbol]                       0x00001e80   Section        0  rajesa2_finalproject.o(.text.collect_data)
+    [Anonymous Symbol]                       0x00001f38   Section        0  rajesa2_finalproject.o(.text.init_portK)
+    [Anonymous Symbol]                       0x00001f78   Section        0  rajesa2_finalproject.o(.text.init_portM)
+    [Anonymous Symbol]                       0x00001fb8   Section        0  rajesa2_finalproject.o(.text.main)
+    [Anonymous Symbol]                       0x00002120   Section        0  onboardleds.o(.text.onboardLEDs_Init)
+    [Anonymous Symbol]                       0x000021f4   Section        0  vl53l1_platform_2dx4.o(.text.readI2C)
+    [Anonymous Symbol]                       0x00002270   Section        0  rajesa2_finalproject.o(.text.spin_motor)
+    [Anonymous Symbol]                       0x000023f8   Section        0  vl53l1_platform_2dx4.o(.text.writeI2C)
+    [Anonymous Symbol]                       0x0000250c   Section        0  vl53l1_platform_2dx4.o(.text.writeRegisterIndex)
+    [Anonymous Symbol]                       0x000025fc   Section        0  vl53l1_platform_2dx4.o(.text.writeRegisterIndex_nostop)
+    CL$$btod_d2e                             0x000026ec   Section       62  btod.o(CL$$btod_d2e)
+    CL$$btod_d2e_denorm_low                  0x0000272a   Section       70  btod.o(CL$$btod_d2e_denorm_low)
+    CL$$btod_d2e_norm_op1                    0x00002770   Section       96  btod.o(CL$$btod_d2e_norm_op1)
+    CL$$btod_div_common                      0x000027d0   Section      824  btod.o(CL$$btod_div_common)
+    CL$$btod_e2e                             0x00002b08   Section      220  btod.o(CL$$btod_e2e)
+    CL$$btod_ediv                            0x00002be4   Section       42  btod.o(CL$$btod_ediv)
+    CL$$btod_emul                            0x00002c0e   Section       42  btod.o(CL$$btod_emul)
+    CL$$btod_mult_common                     0x00002c38   Section      580  btod.o(CL$$btod_mult_common)
+    i.__ARM_fpclassify                       0x00002e7c   Section        0  fpclassify.o(i.__ARM_fpclassify)
+    i._is_digit                              0x00002eac   Section        0  __printf_wp.o(i._is_digit)
+    locale$$code                             0x00002ebc   Section       44  lc_numeric_c.o(locale$$code)
+    locale$$code                             0x00002ee8   Section       44  lc_ctype_c.o(locale$$code)
+    $v0                                      0x00002f14   Number         0  fpinit.o(x$fpl$fpinit)
+    x$fpl$fpinit                             0x00002f14   Section       26  fpinit.o(x$fpl$fpinit)
+    $v0                                      0x00002f2e   Number         0  printf1.o(x$fpl$printf1)
+    x$fpl$printf1                            0x00002f2e   Section        4  printf1.o(x$fpl$printf1)
+    $v0                                      0x00002f32   Number         0  printf2.o(x$fpl$printf2)
+    x$fpl$printf2                            0x00002f32   Section        4  printf2.o(x$fpl$printf2)
+    x$fpl$usenofp                            0x00002f36   Section        0  usenofp.o(x$fpl$usenofp)
+    initial_mbstate                          0x00002f38   Data           8  _printf_wctomb.o(.constdata)
+    .constdata                               0x00002f38   Section        8  _printf_wctomb.o(.constdata)
+    uc_hextab                                0x00002f40   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
+    .constdata                               0x00002f40   Section       40  _printf_hex_int_ll_ptr.o(.constdata)
+    lc_hextab                                0x00002f54   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
+    maptable                                 0x00002f68   Data          17  __printf_flags_ss_wp.o(.constdata)
+    .constdata                               0x00002f68   Section       17  __printf_flags_ss_wp.o(.constdata)
+    lc_hextab                                0x00002f79   Data          19  _printf_fp_hex.o(.constdata)
+    .constdata                               0x00002f79   Section       38  _printf_fp_hex.o(.constdata)
+    uc_hextab                                0x00002f8c   Data          19  _printf_fp_hex.o(.constdata)
+    tenpwrs_x                                0x00002fa0   Data          60  bigflt0.o(.constdata)
+    .constdata                               0x00002fa0   Section      148  bigflt0.o(.constdata)
+    tenpwrs_i                                0x00002fdc   Data          64  bigflt0.o(.constdata)
+    status_rtn                               0x0000308f   Data          24  vl53l1x_api.o(.rodata.status_rtn)
+    [Anonymous Symbol]                       0x0000308f   Section        0  vl53l1x_api.o(.rodata.status_rtn)
+    .L.str.1                                 0x000030a7   Data          29  vl53l1x_api.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x000030a7   Section        0  vl53l1x_api.o(.rodata.str1.1)
+    .L.str                                   0x000030c4   Data          22  vl53l1x_api.o(.rodata.str1.1)
+    .L.str                                   0x000030da   Data          20  uart.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x000030da   Section        0  uart.o(.rodata.str1.1)
+    .L.str.1                                 0x000030ee   Data          15  uart.o(.rodata.str1.1)
+    .L.str                                   0x000030fd   Data          19  rajesa2_finalproject.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x000030fd   Section        0  rajesa2_finalproject.o(.rodata.str1.1)
+    .L.str.3                                 0x00003110   Data           5  rajesa2_finalproject.o(.rodata.str1.1)
+    .L.str.4                                 0x00003115   Data           4  rajesa2_finalproject.o(.rodata.str1.1)
+    .L.str.2                                 0x00003119   Data          13  rajesa2_finalproject.o(.rodata.str1.1)
+    .L.str.1                                 0x00003126   Data          11  rajesa2_finalproject.o(.rodata.str1.1)
+    locale$$data                             0x00003154   Section       28  lc_numeric_c.o(locale$$data)
+    __lcnum_c_name                           0x00003158   Data           2  lc_numeric_c.o(locale$$data)
+    __lcnum_c_start                          0x00003160   Data           0  lc_numeric_c.o(locale$$data)
+    __lcnum_c_point                          0x0000316c   Data           0  lc_numeric_c.o(locale$$data)
+    __lcnum_c_thousands                      0x0000316e   Data           0  lc_numeric_c.o(locale$$data)
+    __lcnum_c_grouping                       0x0000316f   Data           0  lc_numeric_c.o(locale$$data)
+    __lcnum_c_end                            0x00003170   Data           0  lc_numeric_c.o(locale$$data)
+    locale$$data                             0x00003170   Section      272  lc_ctype_c.o(locale$$data)
+    __lcctype_c_name                         0x00003174   Data           2  lc_ctype_c.o(locale$$data)
+    __lcctype_c_start                        0x0000317c   Data           0  lc_ctype_c.o(locale$$data)
+    __lcctype_c_end                          0x00003280   Data           0  lc_ctype_c.o(locale$$data)
+    .bss                                     0x20000028   Section       96  libspace.o(.bss)
+    printf_buffer                            0x20000508   Data        1023  uart.o(.bss.printf_buffer)
+    [Anonymous Symbol]                       0x20000508   Section        0  uart.o(.bss.printf_buffer)
+    Heap_Mem                                 0x20000910   Data           0  startup_msp432e401y_uvision.o(HEAP)
+    Stack_Mem                                0x20000910   Data         512  startup_msp432e401y_uvision.o(STACK)
+    HEAP                                     0x20000910   Section        0  startup_msp432e401y_uvision.o(HEAP)
+    STACK                                    0x20000910   Section      512  startup_msp432e401y_uvision.o(STACK)
+    __initial_sp                             0x20000b10   Data           0  startup_msp432e401y_uvision.o(STACK)
 
     Global Symbols
 
@@ -1407,73 +1425,76 @@ Image Symbol Table
     FlashI2CError                            0x000014fd   Thumb Code     8  onboardleds.o(.text.FlashI2CError)
     FlashI2CRx                               0x00001505   Thumb Code     2  onboardleds.o(.text.FlashI2CRx)
     FlashI2CTx                               0x00001509   Thumb Code     2  onboardleds.o(.text.FlashI2CTx)
-    FlashLED1                                0x0000150d   Thumb Code    66  onboardleds.o(.text.FlashLED1)
-    FlashLED3                                0x00001551   Thumb Code    66  onboardleds.o(.text.FlashLED3)
+    FlashLED3                                0x0000150d   Thumb Code    66  onboardleds.o(.text.FlashLED3)
+    FlashLED4                                0x00001551   Thumb Code    66  onboardleds.o(.text.FlashLED4)
     I2C_Init                                 0x00001595   Thumb Code   148  rajesa2_finalproject.o(.text.I2C_Init)
-    PLL_Init                                 0x00001629   Thumb Code   322  pll.o(.text.PLL_Init)
-    Status_Check                             0x0000176d   Thumb Code    76  uart.o(.text.Status_Check)
-    SysTick_Init                             0x000017b9   Thumb Code    42  systick.o(.text.SysTick_Init)
-    SysTick_Wait                             0x000017e5   Thumb Code    54  systick.o(.text.SysTick_Wait)
-    SysTick_Wait10ms                         0x0000181d   Thumb Code    48  systick.o(.text.SysTick_Wait10ms)
-    SystemInit                               0x0000184d   Thumb Code    36  system_msp432e401y.o(.text.SystemInit)
-    UART_InChar                              0x00001871   Thumb Code    36  uart.o(.text.UART_InChar)
-    UART_Init                                0x00001895   Thumb Code   234  uart.o(.text.UART_Init)
-    UART_OutChar                             0x00001981   Thumb Code    46  uart.o(.text.UART_OutChar)
-    UART_printf                              0x000019b1   Thumb Code    44  uart.o(.text.UART_printf)
-    VL53L1X_BootState                        0x000019dd   Thumb Code    54  vl53l1x_api.o(.text.VL53L1X_BootState)
-    VL53L1X_CheckForDataReady                0x00001a15   Thumb Code   102  vl53l1x_api.o(.text.VL53L1X_CheckForDataReady)
-    VL53L1X_ClearInterrupt                   0x00001a7d   Thumb Code    38  vl53l1x_api.o(.text.VL53L1X_ClearInterrupt)
-    VL53L1X_GetDistance                      0x00001aa5   Thumb Code    48  vl53l1x_api.o(.text.VL53L1X_GetDistance)
-    VL53L1X_GetInterruptPolarity             0x00001ad5   Thumb Code    70  vl53l1x_api.o(.text.VL53L1X_GetInterruptPolarity)
-    VL53L1X_SensorInit                       0x00001b1d   Thumb Code   284  vl53l1x_api.o(.text.VL53L1X_SensorInit)
-    VL53L1X_StartRanging                     0x00001c39   Thumb Code    38  vl53l1x_api.o(.text.VL53L1X_StartRanging)
-    VL53L1X_StopRanging                      0x00001c61   Thumb Code    36  vl53l1x_api.o(.text.VL53L1X_StopRanging)
-    VL53L1_RdByte                            0x00001c85   Thumb Code    50  vl53l1_platform_2dx4.o(.text.VL53L1_RdByte)
-    VL53L1_RdWord                            0x00001cb9   Thumb Code    76  vl53l1_platform_2dx4.o(.text.VL53L1_RdWord)
-    VL53L1_WaitMs                            0x00001d05   Thumb Code    54  vl53l1_platform_2dx4.o(.text.VL53L1_WaitMs)
-    VL53L1_WrByte                            0x00001d3d   Thumb Code    48  vl53l1_platform_2dx4.o(.text.VL53L1_WrByte)
-    beginRxI2C                               0x00001d6d   Thumb Code    36  vl53l1_platform_2dx4.o(.text.beginRxI2C)
-    beginTxI2C                               0x00001d91   Thumb Code    36  vl53l1_platform_2dx4.o(.text.beginTxI2C)
-    collect_data                             0x00001db5   Thumb Code   120  rajesa2_finalproject.o(.text.collect_data)
-    init_portL                               0x00001e2d   Thumb Code    62  rajesa2_finalproject.o(.text.init_portL)
-    main                                     0x00001e6d   Thumb Code   420  rajesa2_finalproject.o(.text.main)
-    onboardLEDs_Init                         0x00002011   Thumb Code   212  onboardleds.o(.text.onboardLEDs_Init)
-    readI2C                                  0x000020e5   Thumb Code   122  vl53l1_platform_2dx4.o(.text.readI2C)
-    spin_motor                               0x00002161   Thumb Code   294  rajesa2_finalproject.o(.text.spin_motor)
-    writeI2C                                 0x00002289   Thumb Code   276  vl53l1_platform_2dx4.o(.text.writeI2C)
-    writeRegisterIndex                       0x0000239d   Thumb Code   240  vl53l1_platform_2dx4.o(.text.writeRegisterIndex)
-    writeRegisterIndex_nostop                0x0000248d   Thumb Code   240  vl53l1_platform_2dx4.o(.text.writeRegisterIndex_nostop)
-    _btod_d2e                                0x0000257d   Thumb Code    62  btod.o(CL$$btod_d2e)
-    _d2e_denorm_low                          0x000025bb   Thumb Code    70  btod.o(CL$$btod_d2e_denorm_low)
-    _d2e_norm_op1                            0x00002601   Thumb Code    96  btod.o(CL$$btod_d2e_norm_op1)
-    __btod_div_common                        0x00002661   Thumb Code   696  btod.o(CL$$btod_div_common)
-    _e2e                                     0x00002999   Thumb Code   220  btod.o(CL$$btod_e2e)
-    _btod_ediv                               0x00002a75   Thumb Code    42  btod.o(CL$$btod_ediv)
-    _btod_emul                               0x00002a9f   Thumb Code    42  btod.o(CL$$btod_emul)
-    __btod_mult_common                       0x00002ac9   Thumb Code   580  btod.o(CL$$btod_mult_common)
-    __ARM_fpclassify                         0x00002d0d   Thumb Code    48  fpclassify.o(i.__ARM_fpclassify)
-    _is_digit                                0x00002d3d   Thumb Code    14  __printf_wp.o(i._is_digit)
-    _get_lc_numeric                          0x00002d4d   Thumb Code    44  lc_numeric_c.o(locale$$code)
-    _get_lc_ctype                            0x00002d79   Thumb Code    44  lc_ctype_c.o(locale$$code)
-    _fp_init                                 0x00002da5   Thumb Code    26  fpinit.o(x$fpl$fpinit)
-    __fplib_config_fpu_vfp                   0x00002dbd   Thumb Code     0  fpinit.o(x$fpl$fpinit)
-    __fplib_config_pureend_doubles           0x00002dbd   Thumb Code     0  fpinit.o(x$fpl$fpinit)
-    _printf_fp_dec                           0x00002dbf   Thumb Code     4  printf1.o(x$fpl$printf1)
-    _printf_fp_hex                           0x00002dc3   Thumb Code     4  printf2.o(x$fpl$printf2)
-    __I$use$fp                               0x00002dc6   Number         0  usenofp.o(x$fpl$usenofp)
-    VL51L1X_DEFAULT_CONFIGURATION            0x00002ec4   Data          91  vl53l1x_api.o(.rodata.VL51L1X_DEFAULT_CONFIGURATION)
-    Region$$Table$$Base                      0x00002fac   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x00002fcc   Number         0  anon$$obj.o(Region$$Table)
-    __ctype                                  0x00002ff5   Data           0  lc_ctype_c.o(locale$$data)
-    STEPS                                    0x20000000   Data           4  rajesa2_finalproject.o(.data.STEPS)
-    SystemCoreClock                          0x20000004   Data           4  system_msp432e401y.o(.data.SystemCoreClock)
-    dev                                      0x20000008   Data           2  rajesa2_finalproject.o(.data.dev)
-    motorSteps                               0x2000000c   Data          16  rajesa2_finalproject.o(.data.motorSteps)
-    rev_motorSteps                           0x2000001c   Data          16  rajesa2_finalproject.o(.data.rev_motorSteps)
-    __libspace_start                         0x20000030   Data          96  libspace.o(.bss)
-    __temporary_stack_top$libspace           0x20000090   Data           0  libspace.o(.bss)
-    dataReady                                0x20000090   Data           1  rajesa2_finalproject.o(.bss.dataReady)
-    status                                   0x20000490   Data           4  rajesa2_finalproject.o(.bss.status)
+    PLL_Init                                 0x00001629   Thumb Code   316  pll.o(.text.PLL_Init)
+    PortJ_Init                               0x00001765   Thumb Code   120  rajesa2_finalproject.o(.text.PortJ_Init)
+    Status_Check                             0x000017dd   Thumb Code    76  uart.o(.text.Status_Check)
+    SysTick_Init                             0x00001829   Thumb Code    42  systick.o(.text.SysTick_Init)
+    SysTick_Wait                             0x00001855   Thumb Code    54  systick.o(.text.SysTick_Wait)
+    SysTick_Wait10ms                         0x0000188d   Thumb Code    48  systick.o(.text.SysTick_Wait10ms)
+    SystemInit                               0x000018bd   Thumb Code    36  system_msp432e401y.o(.text.SystemInit)
+    UART_InChar                              0x000018e1   Thumb Code    36  uart.o(.text.UART_InChar)
+    UART_Init                                0x00001905   Thumb Code   234  uart.o(.text.UART_Init)
+    UART_OutChar                             0x000019f1   Thumb Code    46  uart.o(.text.UART_OutChar)
+    UART_printf                              0x00001a21   Thumb Code    44  uart.o(.text.UART_printf)
+    VL53L1X_BootState                        0x00001a4d   Thumb Code    54  vl53l1x_api.o(.text.VL53L1X_BootState)
+    VL53L1X_CheckForDataReady                0x00001a85   Thumb Code   102  vl53l1x_api.o(.text.VL53L1X_CheckForDataReady)
+    VL53L1X_ClearInterrupt                   0x00001aed   Thumb Code    38  vl53l1x_api.o(.text.VL53L1X_ClearInterrupt)
+    VL53L1X_GetDistance                      0x00001b15   Thumb Code    48  vl53l1x_api.o(.text.VL53L1X_GetDistance)
+    VL53L1X_GetInterruptPolarity             0x00001b45   Thumb Code    70  vl53l1x_api.o(.text.VL53L1X_GetInterruptPolarity)
+    VL53L1X_GetRangeStatus                   0x00001b8d   Thumb Code    90  vl53l1x_api.o(.text.VL53L1X_GetRangeStatus)
+    VL53L1X_SensorInit                       0x00001be9   Thumb Code   284  vl53l1x_api.o(.text.VL53L1X_SensorInit)
+    VL53L1X_StartRanging                     0x00001d05   Thumb Code    38  vl53l1x_api.o(.text.VL53L1X_StartRanging)
+    VL53L1X_StopRanging                      0x00001d2d   Thumb Code    36  vl53l1x_api.o(.text.VL53L1X_StopRanging)
+    VL53L1_RdByte                            0x00001d51   Thumb Code    50  vl53l1_platform_2dx4.o(.text.VL53L1_RdByte)
+    VL53L1_RdWord                            0x00001d85   Thumb Code    76  vl53l1_platform_2dx4.o(.text.VL53L1_RdWord)
+    VL53L1_WaitMs                            0x00001dd1   Thumb Code    54  vl53l1_platform_2dx4.o(.text.VL53L1_WaitMs)
+    VL53L1_WrByte                            0x00001e09   Thumb Code    48  vl53l1_platform_2dx4.o(.text.VL53L1_WrByte)
+    beginRxI2C                               0x00001e39   Thumb Code    36  vl53l1_platform_2dx4.o(.text.beginRxI2C)
+    beginTxI2C                               0x00001e5d   Thumb Code    36  vl53l1_platform_2dx4.o(.text.beginTxI2C)
+    collect_data                             0x00001e81   Thumb Code   184  rajesa2_finalproject.o(.text.collect_data)
+    init_portK                               0x00001f39   Thumb Code    62  rajesa2_finalproject.o(.text.init_portK)
+    init_portM                               0x00001f79   Thumb Code    62  rajesa2_finalproject.o(.text.init_portM)
+    main                                     0x00001fb9   Thumb Code   358  rajesa2_finalproject.o(.text.main)
+    onboardLEDs_Init                         0x00002121   Thumb Code   212  onboardleds.o(.text.onboardLEDs_Init)
+    readI2C                                  0x000021f5   Thumb Code   122  vl53l1_platform_2dx4.o(.text.readI2C)
+    spin_motor                               0x00002271   Thumb Code   392  rajesa2_finalproject.o(.text.spin_motor)
+    writeI2C                                 0x000023f9   Thumb Code   276  vl53l1_platform_2dx4.o(.text.writeI2C)
+    writeRegisterIndex                       0x0000250d   Thumb Code   240  vl53l1_platform_2dx4.o(.text.writeRegisterIndex)
+    writeRegisterIndex_nostop                0x000025fd   Thumb Code   240  vl53l1_platform_2dx4.o(.text.writeRegisterIndex_nostop)
+    _btod_d2e                                0x000026ed   Thumb Code    62  btod.o(CL$$btod_d2e)
+    _d2e_denorm_low                          0x0000272b   Thumb Code    70  btod.o(CL$$btod_d2e_denorm_low)
+    _d2e_norm_op1                            0x00002771   Thumb Code    96  btod.o(CL$$btod_d2e_norm_op1)
+    __btod_div_common                        0x000027d1   Thumb Code   696  btod.o(CL$$btod_div_common)
+    _e2e                                     0x00002b09   Thumb Code   220  btod.o(CL$$btod_e2e)
+    _btod_ediv                               0x00002be5   Thumb Code    42  btod.o(CL$$btod_ediv)
+    _btod_emul                               0x00002c0f   Thumb Code    42  btod.o(CL$$btod_emul)
+    __btod_mult_common                       0x00002c39   Thumb Code   580  btod.o(CL$$btod_mult_common)
+    __ARM_fpclassify                         0x00002e7d   Thumb Code    48  fpclassify.o(i.__ARM_fpclassify)
+    _is_digit                                0x00002ead   Thumb Code    14  __printf_wp.o(i._is_digit)
+    _get_lc_numeric                          0x00002ebd   Thumb Code    44  lc_numeric_c.o(locale$$code)
+    _get_lc_ctype                            0x00002ee9   Thumb Code    44  lc_ctype_c.o(locale$$code)
+    _fp_init                                 0x00002f15   Thumb Code    26  fpinit.o(x$fpl$fpinit)
+    __fplib_config_fpu_vfp                   0x00002f2d   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    __fplib_config_pureend_doubles           0x00002f2d   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    _printf_fp_dec                           0x00002f2f   Thumb Code     4  printf1.o(x$fpl$printf1)
+    _printf_fp_hex                           0x00002f33   Thumb Code     4  printf2.o(x$fpl$printf2)
+    __I$use$fp                               0x00002f36   Number         0  usenofp.o(x$fpl$usenofp)
+    VL51L1X_DEFAULT_CONFIGURATION            0x00003034   Data          91  vl53l1x_api.o(.rodata.VL51L1X_DEFAULT_CONFIGURATION)
+    Region$$Table$$Base                      0x00003134   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00003154   Number         0  anon$$obj.o(Region$$Table)
+    __ctype                                  0x0000317d   Data           0  lc_ctype_c.o(locale$$data)
+    SystemCoreClock                          0x20000000   Data           4  system_msp432e401y.o(.data.SystemCoreClock)
+    dev                                      0x20000004   Data           2  rajesa2_finalproject.o(.data.dev)
+    motorSteps                               0x20000008   Data          16  rajesa2_finalproject.o(.data.motorSteps)
+    rev_motorSteps                           0x20000018   Data          16  rajesa2_finalproject.o(.data.rev_motorSteps)
+    __libspace_start                         0x20000028   Data          96  libspace.o(.bss)
+    __temporary_stack_top$libspace           0x20000088   Data           0  libspace.o(.bss)
+    distances                                0x20000088   Data         768  rajesa2_finalproject.o(.bss.distances)
+    float_distances                          0x20000388   Data         384  rajesa2_finalproject.o(.bss.float_distances)
+    status                                   0x20000908   Data           4  rajesa2_finalproject.o(.bss.status)
 
 
 
@@ -1483,127 +1504,127 @@ Memory Map of the image
 
   Image Entry point : 0x00000375
 
-  Load Region LR_1 (Base: 0x00000000, Size: 0x00003124, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x00000000, Size: 0x000032a8, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x000030f8, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00003280, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x00000000   0x00000000   0x000001fc   Data   RO          231    RESET               startup_msp432e401y_uvision.o
-    0x000001fc   0x000001fc   0x00000008   Code   RO          256  * !!!main             c_w.l(__main.o)
-    0x00000204   0x00000204   0x0000005c   Code   RO          617    !!!scatter          c_w.l(__scatter.o)
-    0x00000260   0x00000260   0x0000001a   Code   RO          621    !!handler_copy      c_w.l(__scatter_copy.o)
+    0x00000000   0x00000000   0x000001fc   Data   RO          237    RESET               startup_msp432e401y_uvision.o
+    0x000001fc   0x000001fc   0x00000008   Code   RO          262  * !!!main             c_w.l(__main.o)
+    0x00000204   0x00000204   0x0000005c   Code   RO          623    !!!scatter          c_w.l(__scatter.o)
+    0x00000260   0x00000260   0x0000001a   Code   RO          627    !!handler_copy      c_w.l(__scatter_copy.o)
     0x0000027a   0x0000027a   0x00000002   PAD
-    0x0000027c   0x0000027c   0x00000002   Code   RO          618    !!handler_null      c_w.l(__scatter.o)
+    0x0000027c   0x0000027c   0x00000002   Code   RO          624    !!handler_null      c_w.l(__scatter.o)
     0x0000027e   0x0000027e   0x00000002   PAD
-    0x00000280   0x00000280   0x0000001c   Code   RO          623    !!handler_zi        c_w.l(__scatter_zi.o)
-    0x0000029c   0x0000029c   0x00000000   Code   RO          360    .ARM.Collect$$_printf_percent$$00000000  c_w.l(_printf_percent.o)
-    0x0000029c   0x0000029c   0x00000006   Code   RO          349    .ARM.Collect$$_printf_percent$$00000001  c_w.l(_printf_n.o)
-    0x000002a2   0x000002a2   0x00000006   Code   RO          351    .ARM.Collect$$_printf_percent$$00000002  c_w.l(_printf_p.o)
-    0x000002a8   0x000002a8   0x00000006   Code   RO          356    .ARM.Collect$$_printf_percent$$00000003  c_w.l(_printf_f.o)
-    0x000002ae   0x000002ae   0x00000006   Code   RO          357    .ARM.Collect$$_printf_percent$$00000004  c_w.l(_printf_e.o)
-    0x000002b4   0x000002b4   0x00000006   Code   RO          358    .ARM.Collect$$_printf_percent$$00000005  c_w.l(_printf_g.o)
-    0x000002ba   0x000002ba   0x00000006   Code   RO          359    .ARM.Collect$$_printf_percent$$00000006  c_w.l(_printf_a.o)
-    0x000002c0   0x000002c0   0x0000000a   Code   RO          364    .ARM.Collect$$_printf_percent$$00000007  c_w.l(_printf_ll.o)
-    0x000002ca   0x000002ca   0x00000006   Code   RO          353    .ARM.Collect$$_printf_percent$$00000008  c_w.l(_printf_i.o)
-    0x000002d0   0x000002d0   0x00000006   Code   RO          354    .ARM.Collect$$_printf_percent$$00000009  c_w.l(_printf_d.o)
-    0x000002d6   0x000002d6   0x00000006   Code   RO          355    .ARM.Collect$$_printf_percent$$0000000A  c_w.l(_printf_u.o)
-    0x000002dc   0x000002dc   0x00000006   Code   RO          352    .ARM.Collect$$_printf_percent$$0000000B  c_w.l(_printf_o.o)
-    0x000002e2   0x000002e2   0x00000006   Code   RO          350    .ARM.Collect$$_printf_percent$$0000000C  c_w.l(_printf_x.o)
-    0x000002e8   0x000002e8   0x00000006   Code   RO          361    .ARM.Collect$$_printf_percent$$0000000D  c_w.l(_printf_lli.o)
-    0x000002ee   0x000002ee   0x00000006   Code   RO          362    .ARM.Collect$$_printf_percent$$0000000E  c_w.l(_printf_lld.o)
-    0x000002f4   0x000002f4   0x00000006   Code   RO          363    .ARM.Collect$$_printf_percent$$0000000F  c_w.l(_printf_llu.o)
-    0x000002fa   0x000002fa   0x00000006   Code   RO          368    .ARM.Collect$$_printf_percent$$00000010  c_w.l(_printf_llo.o)
-    0x00000300   0x00000300   0x00000006   Code   RO          369    .ARM.Collect$$_printf_percent$$00000011  c_w.l(_printf_llx.o)
-    0x00000306   0x00000306   0x0000000a   Code   RO          365    .ARM.Collect$$_printf_percent$$00000012  c_w.l(_printf_l.o)
-    0x00000310   0x00000310   0x00000006   Code   RO          347    .ARM.Collect$$_printf_percent$$00000013  c_w.l(_printf_c.o)
-    0x00000316   0x00000316   0x00000006   Code   RO          348    .ARM.Collect$$_printf_percent$$00000014  c_w.l(_printf_s.o)
-    0x0000031c   0x0000031c   0x00000006   Code   RO          366    .ARM.Collect$$_printf_percent$$00000015  c_w.l(_printf_lc.o)
-    0x00000322   0x00000322   0x00000006   Code   RO          367    .ARM.Collect$$_printf_percent$$00000016  c_w.l(_printf_ls.o)
-    0x00000328   0x00000328   0x00000004   Code   RO          415    .ARM.Collect$$_printf_percent$$00000017  c_w.l(_printf_percent_end.o)
-    0x0000032c   0x0000032c   0x00000002   Code   RO          466    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
-    0x0000032e   0x0000032e   0x00000004   Code   RO          483    .ARM.Collect$$libinit$$00000001  c_w.l(libinit2.o)
-    0x00000332   0x00000332   0x00000000   Code   RO          486    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
-    0x00000332   0x00000332   0x00000000   Code   RO          488    .ARM.Collect$$libinit$$00000006  c_w.l(libinit2.o)
-    0x00000332   0x00000332   0x00000000   Code   RO          491    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
-    0x00000332   0x00000332   0x00000000   Code   RO          493    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
-    0x00000332   0x00000332   0x00000000   Code   RO          495    .ARM.Collect$$libinit$$00000010  c_w.l(libinit2.o)
-    0x00000332   0x00000332   0x00000006   Code   RO          496    .ARM.Collect$$libinit$$00000011  c_w.l(libinit2.o)
-    0x00000338   0x00000338   0x00000000   Code   RO          498    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
-    0x00000338   0x00000338   0x0000000c   Code   RO          499    .ARM.Collect$$libinit$$00000014  c_w.l(libinit2.o)
-    0x00000344   0x00000344   0x00000000   Code   RO          500    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
-    0x00000344   0x00000344   0x00000000   Code   RO          502    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
-    0x00000344   0x00000344   0x0000000a   Code   RO          503    .ARM.Collect$$libinit$$00000018  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          504    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          506    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          508    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          510    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          512    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          514    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          516    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          518    .ARM.Collect$$libinit$$00000027  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          522    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          524    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          526    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000000   Code   RO          528    .ARM.Collect$$libinit$$00000034  c_w.l(libinit2.o)
-    0x0000034e   0x0000034e   0x00000002   Code   RO          529    .ARM.Collect$$libinit$$00000035  c_w.l(libinit2.o)
-    0x00000350   0x00000350   0x00000002   Code   RO          553    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
-    0x00000352   0x00000352   0x00000000   Code   RO          568    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
-    0x00000352   0x00000352   0x00000000   Code   RO          570    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
-    0x00000352   0x00000352   0x00000000   Code   RO          573    .ARM.Collect$$libshutdown$$00000007  c_w.l(libshutdown2.o)
-    0x00000352   0x00000352   0x00000000   Code   RO          576    .ARM.Collect$$libshutdown$$0000000A  c_w.l(libshutdown2.o)
-    0x00000352   0x00000352   0x00000000   Code   RO          578    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
-    0x00000352   0x00000352   0x00000000   Code   RO          581    .ARM.Collect$$libshutdown$$0000000F  c_w.l(libshutdown2.o)
-    0x00000352   0x00000352   0x00000002   Code   RO          582    .ARM.Collect$$libshutdown$$00000010  c_w.l(libshutdown2.o)
-    0x00000354   0x00000354   0x00000000   Code   RO          278    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
-    0x00000354   0x00000354   0x00000000   Code   RO          384    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
-    0x00000354   0x00000354   0x00000006   Code   RO          396    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
-    0x0000035a   0x0000035a   0x00000000   Code   RO          386    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
-    0x0000035a   0x0000035a   0x00000004   Code   RO          387    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
-    0x0000035e   0x0000035e   0x00000000   Code   RO          389    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
-    0x0000035e   0x0000035e   0x00000008   Code   RO          390    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
-    0x00000366   0x00000366   0x00000002   Code   RO          474    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
-    0x00000368   0x00000368   0x00000000   Code   RO          531    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
-    0x00000368   0x00000368   0x00000004   Code   RO          532    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
-    0x0000036c   0x0000036c   0x00000006   Code   RO          533    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
+    0x00000280   0x00000280   0x0000001c   Code   RO          629    !!handler_zi        c_w.l(__scatter_zi.o)
+    0x0000029c   0x0000029c   0x00000000   Code   RO          366    .ARM.Collect$$_printf_percent$$00000000  c_w.l(_printf_percent.o)
+    0x0000029c   0x0000029c   0x00000006   Code   RO          355    .ARM.Collect$$_printf_percent$$00000001  c_w.l(_printf_n.o)
+    0x000002a2   0x000002a2   0x00000006   Code   RO          357    .ARM.Collect$$_printf_percent$$00000002  c_w.l(_printf_p.o)
+    0x000002a8   0x000002a8   0x00000006   Code   RO          362    .ARM.Collect$$_printf_percent$$00000003  c_w.l(_printf_f.o)
+    0x000002ae   0x000002ae   0x00000006   Code   RO          363    .ARM.Collect$$_printf_percent$$00000004  c_w.l(_printf_e.o)
+    0x000002b4   0x000002b4   0x00000006   Code   RO          364    .ARM.Collect$$_printf_percent$$00000005  c_w.l(_printf_g.o)
+    0x000002ba   0x000002ba   0x00000006   Code   RO          365    .ARM.Collect$$_printf_percent$$00000006  c_w.l(_printf_a.o)
+    0x000002c0   0x000002c0   0x0000000a   Code   RO          370    .ARM.Collect$$_printf_percent$$00000007  c_w.l(_printf_ll.o)
+    0x000002ca   0x000002ca   0x00000006   Code   RO          359    .ARM.Collect$$_printf_percent$$00000008  c_w.l(_printf_i.o)
+    0x000002d0   0x000002d0   0x00000006   Code   RO          360    .ARM.Collect$$_printf_percent$$00000009  c_w.l(_printf_d.o)
+    0x000002d6   0x000002d6   0x00000006   Code   RO          361    .ARM.Collect$$_printf_percent$$0000000A  c_w.l(_printf_u.o)
+    0x000002dc   0x000002dc   0x00000006   Code   RO          358    .ARM.Collect$$_printf_percent$$0000000B  c_w.l(_printf_o.o)
+    0x000002e2   0x000002e2   0x00000006   Code   RO          356    .ARM.Collect$$_printf_percent$$0000000C  c_w.l(_printf_x.o)
+    0x000002e8   0x000002e8   0x00000006   Code   RO          367    .ARM.Collect$$_printf_percent$$0000000D  c_w.l(_printf_lli.o)
+    0x000002ee   0x000002ee   0x00000006   Code   RO          368    .ARM.Collect$$_printf_percent$$0000000E  c_w.l(_printf_lld.o)
+    0x000002f4   0x000002f4   0x00000006   Code   RO          369    .ARM.Collect$$_printf_percent$$0000000F  c_w.l(_printf_llu.o)
+    0x000002fa   0x000002fa   0x00000006   Code   RO          374    .ARM.Collect$$_printf_percent$$00000010  c_w.l(_printf_llo.o)
+    0x00000300   0x00000300   0x00000006   Code   RO          375    .ARM.Collect$$_printf_percent$$00000011  c_w.l(_printf_llx.o)
+    0x00000306   0x00000306   0x0000000a   Code   RO          371    .ARM.Collect$$_printf_percent$$00000012  c_w.l(_printf_l.o)
+    0x00000310   0x00000310   0x00000006   Code   RO          353    .ARM.Collect$$_printf_percent$$00000013  c_w.l(_printf_c.o)
+    0x00000316   0x00000316   0x00000006   Code   RO          354    .ARM.Collect$$_printf_percent$$00000014  c_w.l(_printf_s.o)
+    0x0000031c   0x0000031c   0x00000006   Code   RO          372    .ARM.Collect$$_printf_percent$$00000015  c_w.l(_printf_lc.o)
+    0x00000322   0x00000322   0x00000006   Code   RO          373    .ARM.Collect$$_printf_percent$$00000016  c_w.l(_printf_ls.o)
+    0x00000328   0x00000328   0x00000004   Code   RO          421    .ARM.Collect$$_printf_percent$$00000017  c_w.l(_printf_percent_end.o)
+    0x0000032c   0x0000032c   0x00000002   Code   RO          472    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
+    0x0000032e   0x0000032e   0x00000004   Code   RO          489    .ARM.Collect$$libinit$$00000001  c_w.l(libinit2.o)
+    0x00000332   0x00000332   0x00000000   Code   RO          492    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
+    0x00000332   0x00000332   0x00000000   Code   RO          494    .ARM.Collect$$libinit$$00000006  c_w.l(libinit2.o)
+    0x00000332   0x00000332   0x00000000   Code   RO          497    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
+    0x00000332   0x00000332   0x00000000   Code   RO          499    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
+    0x00000332   0x00000332   0x00000000   Code   RO          501    .ARM.Collect$$libinit$$00000010  c_w.l(libinit2.o)
+    0x00000332   0x00000332   0x00000006   Code   RO          502    .ARM.Collect$$libinit$$00000011  c_w.l(libinit2.o)
+    0x00000338   0x00000338   0x00000000   Code   RO          504    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
+    0x00000338   0x00000338   0x0000000c   Code   RO          505    .ARM.Collect$$libinit$$00000014  c_w.l(libinit2.o)
+    0x00000344   0x00000344   0x00000000   Code   RO          506    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
+    0x00000344   0x00000344   0x00000000   Code   RO          508    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
+    0x00000344   0x00000344   0x0000000a   Code   RO          509    .ARM.Collect$$libinit$$00000018  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          510    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          512    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          514    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          516    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          518    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          520    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          522    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          524    .ARM.Collect$$libinit$$00000027  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          528    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          530    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          532    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000000   Code   RO          534    .ARM.Collect$$libinit$$00000034  c_w.l(libinit2.o)
+    0x0000034e   0x0000034e   0x00000002   Code   RO          535    .ARM.Collect$$libinit$$00000035  c_w.l(libinit2.o)
+    0x00000350   0x00000350   0x00000002   Code   RO          559    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
+    0x00000352   0x00000352   0x00000000   Code   RO          574    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
+    0x00000352   0x00000352   0x00000000   Code   RO          576    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
+    0x00000352   0x00000352   0x00000000   Code   RO          579    .ARM.Collect$$libshutdown$$00000007  c_w.l(libshutdown2.o)
+    0x00000352   0x00000352   0x00000000   Code   RO          582    .ARM.Collect$$libshutdown$$0000000A  c_w.l(libshutdown2.o)
+    0x00000352   0x00000352   0x00000000   Code   RO          584    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
+    0x00000352   0x00000352   0x00000000   Code   RO          587    .ARM.Collect$$libshutdown$$0000000F  c_w.l(libshutdown2.o)
+    0x00000352   0x00000352   0x00000002   Code   RO          588    .ARM.Collect$$libshutdown$$00000010  c_w.l(libshutdown2.o)
+    0x00000354   0x00000354   0x00000000   Code   RO          284    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
+    0x00000354   0x00000354   0x00000000   Code   RO          390    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
+    0x00000354   0x00000354   0x00000006   Code   RO          402    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
+    0x0000035a   0x0000035a   0x00000000   Code   RO          392    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
+    0x0000035a   0x0000035a   0x00000004   Code   RO          393    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
+    0x0000035e   0x0000035e   0x00000000   Code   RO          395    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
+    0x0000035e   0x0000035e   0x00000008   Code   RO          396    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
+    0x00000366   0x00000366   0x00000002   Code   RO          480    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
+    0x00000368   0x00000368   0x00000000   Code   RO          537    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
+    0x00000368   0x00000368   0x00000004   Code   RO          538    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
+    0x0000036c   0x0000036c   0x00000006   Code   RO          539    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
     0x00000372   0x00000372   0x00000002   PAD
-    0x00000374   0x00000374   0x0000003c   Code   RO          232  * .text               startup_msp432e401y_uvision.o
-    0x000003b0   0x000003b0   0x0000002c   Code   RO          252    .text               c_w.l(sprintf.o)
-    0x000003dc   0x000003dc   0x00000006   Code   RO          254    .text               c_w.l(heapauxi.o)
-    0x000003e2   0x000003e2   0x0000004e   Code   RO          281    .text               c_w.l(_printf_pad.o)
-    0x00000430   0x00000430   0x00000024   Code   RO          283    .text               c_w.l(_printf_truncate.o)
-    0x00000454   0x00000454   0x00000052   Code   RO          285    .text               c_w.l(_printf_str.o)
+    0x00000374   0x00000374   0x0000003c   Code   RO          238  * .text               startup_msp432e401y_uvision.o
+    0x000003b0   0x000003b0   0x0000002c   Code   RO          258    .text               c_w.l(sprintf.o)
+    0x000003dc   0x000003dc   0x00000006   Code   RO          260    .text               c_w.l(heapauxi.o)
+    0x000003e2   0x000003e2   0x0000004e   Code   RO          287    .text               c_w.l(_printf_pad.o)
+    0x00000430   0x00000430   0x00000024   Code   RO          289    .text               c_w.l(_printf_truncate.o)
+    0x00000454   0x00000454   0x00000052   Code   RO          291    .text               c_w.l(_printf_str.o)
     0x000004a6   0x000004a6   0x00000002   PAD
-    0x000004a8   0x000004a8   0x00000078   Code   RO          287    .text               c_w.l(_printf_dec.o)
-    0x00000520   0x00000520   0x00000028   Code   RO          289    .text               c_w.l(_printf_charcount.o)
-    0x00000548   0x00000548   0x00000030   Code   RO          291    .text               c_w.l(_printf_char_common.o)
-    0x00000578   0x00000578   0x0000000a   Code   RO          293    .text               c_w.l(_sputc.o)
+    0x000004a8   0x000004a8   0x00000078   Code   RO          293    .text               c_w.l(_printf_dec.o)
+    0x00000520   0x00000520   0x00000028   Code   RO          295    .text               c_w.l(_printf_charcount.o)
+    0x00000548   0x00000548   0x00000030   Code   RO          297    .text               c_w.l(_printf_char_common.o)
+    0x00000578   0x00000578   0x0000000a   Code   RO          299    .text               c_w.l(_sputc.o)
     0x00000582   0x00000582   0x00000002   PAD
-    0x00000584   0x00000584   0x000000bc   Code   RO          295    .text               c_w.l(_printf_wctomb.o)
-    0x00000640   0x00000640   0x0000007c   Code   RO          298    .text               c_w.l(_printf_longlong_dec.o)
-    0x000006bc   0x000006bc   0x00000070   Code   RO          304    .text               c_w.l(_printf_oct_int_ll.o)
-    0x0000072c   0x0000072c   0x00000094   Code   RO          324    .text               c_w.l(_printf_hex_int_ll_ptr.o)
-    0x000007c0   0x000007c0   0x00000188   Code   RO          344    .text               c_w.l(__printf_flags_ss_wp.o)
-    0x00000948   0x00000948   0x0000008a   Code   RO          398    .text               c_w.l(lludiv10.o)
-    0x000009d2   0x000009d2   0x000000b2   Code   RO          400    .text               c_w.l(_printf_intcommon.o)
-    0x00000a84   0x00000a84   0x0000041c   Code   RO          402    .text               c_w.l(_printf_fp_dec.o)
-    0x00000ea0   0x00000ea0   0x000002fc   Code   RO          406    .text               c_w.l(_printf_fp_hex.o)
-    0x0000119c   0x0000119c   0x0000002c   Code   RO          411    .text               c_w.l(_printf_char.o)
-    0x000011c8   0x000011c8   0x0000002c   Code   RO          413    .text               c_w.l(_printf_wchar.o)
-    0x000011f4   0x000011f4   0x00000048   Code   RO          416    .text               c_w.l(_c16rtomb.o)
-    0x0000123c   0x0000123c   0x0000004a   Code   RO          418    .text               c_w.l(sys_stackheap_outer.o)
+    0x00000584   0x00000584   0x000000bc   Code   RO          301    .text               c_w.l(_printf_wctomb.o)
+    0x00000640   0x00000640   0x0000007c   Code   RO          304    .text               c_w.l(_printf_longlong_dec.o)
+    0x000006bc   0x000006bc   0x00000070   Code   RO          310    .text               c_w.l(_printf_oct_int_ll.o)
+    0x0000072c   0x0000072c   0x00000094   Code   RO          330    .text               c_w.l(_printf_hex_int_ll_ptr.o)
+    0x000007c0   0x000007c0   0x00000188   Code   RO          350    .text               c_w.l(__printf_flags_ss_wp.o)
+    0x00000948   0x00000948   0x0000008a   Code   RO          404    .text               c_w.l(lludiv10.o)
+    0x000009d2   0x000009d2   0x000000b2   Code   RO          406    .text               c_w.l(_printf_intcommon.o)
+    0x00000a84   0x00000a84   0x0000041c   Code   RO          408    .text               c_w.l(_printf_fp_dec.o)
+    0x00000ea0   0x00000ea0   0x000002fc   Code   RO          412    .text               c_w.l(_printf_fp_hex.o)
+    0x0000119c   0x0000119c   0x0000002c   Code   RO          417    .text               c_w.l(_printf_char.o)
+    0x000011c8   0x000011c8   0x0000002c   Code   RO          419    .text               c_w.l(_printf_wchar.o)
+    0x000011f4   0x000011f4   0x00000048   Code   RO          422    .text               c_w.l(_c16rtomb.o)
+    0x0000123c   0x0000123c   0x0000004a   Code   RO          424    .text               c_w.l(sys_stackheap_outer.o)
     0x00001286   0x00001286   0x00000002   PAD
-    0x00001288   0x00001288   0x00000010   Code   RO          420    .text               c_w.l(rt_ctype_table.o)
-    0x00001298   0x00001298   0x00000008   Code   RO          425    .text               c_w.l(rt_locale_intlibspace.o)
-    0x000012a0   0x000012a0   0x00000080   Code   RO          427    .text               c_w.l(_printf_fp_infnan.o)
-    0x00001320   0x00001320   0x000000e4   Code   RO          429    .text               c_w.l(bigflt0.o)
-    0x00001404   0x00001404   0x00000012   Code   RO          459    .text               c_w.l(exit.o)
+    0x00001288   0x00001288   0x00000010   Code   RO          426    .text               c_w.l(rt_ctype_table.o)
+    0x00001298   0x00001298   0x00000008   Code   RO          431    .text               c_w.l(rt_locale_intlibspace.o)
+    0x000012a0   0x000012a0   0x00000080   Code   RO          433    .text               c_w.l(_printf_fp_infnan.o)
+    0x00001320   0x00001320   0x000000e4   Code   RO          435    .text               c_w.l(bigflt0.o)
+    0x00001404   0x00001404   0x00000012   Code   RO          465    .text               c_w.l(exit.o)
     0x00001416   0x00001416   0x00000002   PAD
-    0x00001418   0x00001418   0x00000008   Code   RO          471    .text               c_w.l(libspace.o)
-    0x00001420   0x00001420   0x0000007c   Code   RO          481    .text               c_w.l(strcmpv7em.o)
-    0x0000149c   0x0000149c   0x0000000c   Code   RO          543    .text               c_w.l(sys_exit.o)
-    0x000014a8   0x000014a8   0x00000002   Code   RO          558    .text               c_w.l(use_no_semi.o)
-    0x000014aa   0x000014aa   0x00000000   Code   RO          560    .text               c_w.l(indicate_semi.o)
+    0x00001418   0x00001418   0x00000008   Code   RO          477    .text               c_w.l(libspace.o)
+    0x00001420   0x00001420   0x0000007c   Code   RO          487    .text               c_w.l(strcmpv7em.o)
+    0x0000149c   0x0000149c   0x0000000c   Code   RO          549    .text               c_w.l(sys_exit.o)
+    0x000014a8   0x000014a8   0x00000002   Code   RO          564    .text               c_w.l(use_no_semi.o)
+    0x000014aa   0x000014aa   0x00000000   Code   RO          566    .text               c_w.l(indicate_semi.o)
     0x000014aa   0x000014aa   0x00000002   PAD
     0x000014ac   0x000014ac   0x0000004e   Code   RO          163    .text.FlashAllLEDs  onboardleds.o
     0x000014fa   0x000014fa   0x00000002   PAD
@@ -1612,116 +1633,122 @@ Memory Map of the image
     0x00001506   0x00001506   0x00000002   PAD
     0x00001508   0x00001508   0x00000002   Code   RO          165    .text.FlashI2CTx    onboardleds.o
     0x0000150a   0x0000150a   0x00000002   PAD
-    0x0000150c   0x0000150c   0x00000042   Code   RO          155    .text.FlashLED1     onboardleds.o
+    0x0000150c   0x0000150c   0x00000042   Code   RO          159    .text.FlashLED3     onboardleds.o
     0x0000154e   0x0000154e   0x00000002   PAD
-    0x00001550   0x00001550   0x00000042   Code   RO          159    .text.FlashLED3     onboardleds.o
+    0x00001550   0x00001550   0x00000042   Code   RO          161    .text.FlashLED4     onboardleds.o
     0x00001592   0x00001592   0x00000002   PAD
     0x00001594   0x00001594   0x00000094   Code   RO          199    .text.I2C_Init      rajesa2_finalproject.o
-    0x00001628   0x00001628   0x00000142   Code   RO            2    .text.PLL_Init      pll.o
-    0x0000176a   0x0000176a   0x00000002   PAD
-    0x0000176c   0x0000176c   0x0000004c   Code   RO          188    .text.Status_Check  uart.o
-    0x000017b8   0x000017b8   0x0000002a   Code   RO           10    .text.SysTick_Init  systick.o
-    0x000017e2   0x000017e2   0x00000002   PAD
-    0x000017e4   0x000017e4   0x00000036   Code   RO           12    .text.SysTick_Wait  systick.o
-    0x0000181a   0x0000181a   0x00000002   PAD
-    0x0000181c   0x0000181c   0x00000030   Code   RO           14    .text.SysTick_Wait10ms  systick.o
-    0x0000184c   0x0000184c   0x00000024   Code   RO          241    .text.SystemInit    system_msp432e401y.o
-    0x00001870   0x00001870   0x00000024   Code   RO          182    .text.UART_InChar   uart.o
-    0x00001894   0x00001894   0x000000ea   Code   RO          180    .text.UART_Init     uart.o
-    0x0000197e   0x0000197e   0x00000002   PAD
-    0x00001980   0x00001980   0x0000002e   Code   RO          184    .text.UART_OutChar  uart.o
-    0x000019ae   0x000019ae   0x00000002   PAD
-    0x000019b0   0x000019b0   0x0000002c   Code   RO          186    .text.UART_printf   uart.o
-    0x000019dc   0x000019dc   0x00000036   Code   RO           91    .text.VL53L1X_BootState  vl53l1x_api.o
-    0x00001a12   0x00001a12   0x00000002   PAD
-    0x00001a14   0x00001a14   0x00000066   Code   RO           71    .text.VL53L1X_CheckForDataReady  vl53l1x_api.o
-    0x00001a7a   0x00001a7a   0x00000002   PAD
-    0x00001a7c   0x00001a7c   0x00000026   Code   RO           67    .text.VL53L1X_ClearInterrupt  vl53l1x_api.o
-    0x00001aa2   0x00001aa2   0x00000002   PAD
-    0x00001aa4   0x00001aa4   0x00000030   Code   RO           95    .text.VL53L1X_GetDistance  vl53l1x_api.o
-    0x00001ad4   0x00001ad4   0x00000046   Code   RO           77    .text.VL53L1X_GetInterruptPolarity  vl53l1x_api.o
-    0x00001b1a   0x00001b1a   0x00000002   PAD
-    0x00001b1c   0x00001b1c   0x0000011c   Code   RO           65    .text.VL53L1X_SensorInit  vl53l1x_api.o
-    0x00001c38   0x00001c38   0x00000026   Code   RO           69    .text.VL53L1X_StartRanging  vl53l1x_api.o
-    0x00001c5e   0x00001c5e   0x00000002   PAD
-    0x00001c60   0x00001c60   0x00000024   Code   RO           73    .text.VL53L1X_StopRanging  vl53l1x_api.o
-    0x00001c84   0x00001c84   0x00000032   Code   RO           45    .text.VL53L1_RdByte  vl53l1_platform_2dx4.o
-    0x00001cb6   0x00001cb6   0x00000002   PAD
-    0x00001cb8   0x00001cb8   0x0000004c   Code   RO           47    .text.VL53L1_RdWord  vl53l1_platform_2dx4.o
-    0x00001d04   0x00001d04   0x00000036   Code   RO           51    .text.VL53L1_WaitMs  vl53l1_platform_2dx4.o
-    0x00001d3a   0x00001d3a   0x00000002   PAD
-    0x00001d3c   0x00001d3c   0x00000030   Code   RO           39    .text.VL53L1_WrByte  vl53l1_platform_2dx4.o
-    0x00001d6c   0x00001d6c   0x00000024   Code   RO           25    .text.beginRxI2C    vl53l1_platform_2dx4.o
-    0x00001d90   0x00001d90   0x00000024   Code   RO           23    .text.beginTxI2C    vl53l1_platform_2dx4.o
-    0x00001db4   0x00001db4   0x00000078   Code   RO          207    .text.collect_data  rajesa2_finalproject.o
-    0x00001e2c   0x00001e2c   0x0000003e   Code   RO          205    .text.init_portL    rajesa2_finalproject.o
-    0x00001e6a   0x00001e6a   0x00000002   PAD
-    0x00001e6c   0x00001e6c   0x000001a4   Code   RO          211    .text.main          rajesa2_finalproject.o
-    0x00002010   0x00002010   0x000000d4   Code   RO          171    .text.onboardLEDs_Init  onboardleds.o
-    0x000020e4   0x000020e4   0x0000007a   Code   RO           33    .text.readI2C       vl53l1_platform_2dx4.o
-    0x0000215e   0x0000215e   0x00000002   PAD
-    0x00002160   0x00002160   0x00000126   Code   RO          209    .text.spin_motor    rajesa2_finalproject.o
-    0x00002286   0x00002286   0x00000002   PAD
-    0x00002288   0x00002288   0x00000114   Code   RO           31    .text.writeI2C      vl53l1_platform_2dx4.o
-    0x0000239c   0x0000239c   0x000000f0   Code   RO           27    .text.writeRegisterIndex  vl53l1_platform_2dx4.o
-    0x0000248c   0x0000248c   0x000000f0   Code   RO           29    .text.writeRegisterIndex_nostop  vl53l1_platform_2dx4.o
-    0x0000257c   0x0000257c   0x0000003e   Code   RO          432    CL$$btod_d2e        c_w.l(btod.o)
-    0x000025ba   0x000025ba   0x00000046   Code   RO          434    CL$$btod_d2e_denorm_low  c_w.l(btod.o)
-    0x00002600   0x00002600   0x00000060   Code   RO          433    CL$$btod_d2e_norm_op1  c_w.l(btod.o)
-    0x00002660   0x00002660   0x00000338   Code   RO          442    CL$$btod_div_common  c_w.l(btod.o)
-    0x00002998   0x00002998   0x000000dc   Code   RO          439    CL$$btod_e2e        c_w.l(btod.o)
-    0x00002a74   0x00002a74   0x0000002a   Code   RO          436    CL$$btod_ediv       c_w.l(btod.o)
-    0x00002a9e   0x00002a9e   0x0000002a   Code   RO          435    CL$$btod_emul       c_w.l(btod.o)
-    0x00002ac8   0x00002ac8   0x00000244   Code   RO          441    CL$$btod_mult_common  c_w.l(btod.o)
-    0x00002d0c   0x00002d0c   0x00000030   Code   RO          469    i.__ARM_fpclassify  m_wm.l(fpclassify.o)
-    0x00002d3c   0x00002d3c   0x0000000e   Code   RO          337    i._is_digit         c_w.l(__printf_wp.o)
-    0x00002d4a   0x00002d4a   0x00000002   PAD
-    0x00002d4c   0x00002d4c   0x0000002c   Code   RO          457    locale$$code        c_w.l(lc_numeric_c.o)
-    0x00002d78   0x00002d78   0x0000002c   Code   RO          479    locale$$code        c_w.l(lc_ctype_c.o)
-    0x00002da4   0x00002da4   0x0000001a   Code   RO          541    x$fpl$fpinit        fz_wm.l(fpinit.o)
-    0x00002dbe   0x00002dbe   0x00000004   Code   RO          374    x$fpl$printf1       fz_wm.l(printf1.o)
-    0x00002dc2   0x00002dc2   0x00000004   Code   RO          376    x$fpl$printf2       fz_wm.l(printf2.o)
-    0x00002dc6   0x00002dc6   0x00000000   Code   RO          382    x$fpl$usenofp       fz_wm.l(usenofp.o)
-    0x00002dc6   0x00002dc6   0x00000002   PAD
-    0x00002dc8   0x00002dc8   0x00000008   Data   RO          296    .constdata          c_w.l(_printf_wctomb.o)
-    0x00002dd0   0x00002dd0   0x00000028   Data   RO          325    .constdata          c_w.l(_printf_hex_int_ll_ptr.o)
-    0x00002df8   0x00002df8   0x00000011   Data   RO          345    .constdata          c_w.l(__printf_flags_ss_wp.o)
-    0x00002e09   0x00002e09   0x00000026   Data   RO          407    .constdata          c_w.l(_printf_fp_hex.o)
-    0x00002e2f   0x00002e2f   0x00000001   PAD
-    0x00002e30   0x00002e30   0x00000094   Data   RO          430    .constdata          c_w.l(bigflt0.o)
-    0x00002ec4   0x00002ec4   0x0000005b   Data   RO          145    .rodata.VL51L1X_DEFAULT_CONFIGURATION  vl53l1x_api.o
-    0x00002f1f   0x00002f1f   0x00000033   Data   RO          146    .rodata.str1.1      vl53l1x_api.o
-    0x00002f52   0x00002f52   0x00000023   Data   RO          191    .rodata.str1.1      uart.o
-    0x00002f75   0x00002f75   0x00000034   Data   RO          220    .rodata.str1.1      rajesa2_finalproject.o
-    0x00002fa9   0x00002fa9   0x00000003   PAD
-    0x00002fac   0x00002fac   0x00000020   Data   RO          616    Region$$Table       anon$$obj.o
-    0x00002fcc   0x00002fcc   0x0000001c   Data   RO          456    locale$$data        c_w.l(lc_numeric_c.o)
-    0x00002fe8   0x00002fe8   0x00000110   Data   RO          478    locale$$data        c_w.l(lc_ctype_c.o)
+    0x00001628   0x00001628   0x0000013c   Code   RO            2    .text.PLL_Init      pll.o
+    0x00001764   0x00001764   0x00000078   Code   RO          201    .text.PortJ_Init    rajesa2_finalproject.o
+    0x000017dc   0x000017dc   0x0000004c   Code   RO          188    .text.Status_Check  uart.o
+    0x00001828   0x00001828   0x0000002a   Code   RO           10    .text.SysTick_Init  systick.o
+    0x00001852   0x00001852   0x00000002   PAD
+    0x00001854   0x00001854   0x00000036   Code   RO           12    .text.SysTick_Wait  systick.o
+    0x0000188a   0x0000188a   0x00000002   PAD
+    0x0000188c   0x0000188c   0x00000030   Code   RO           14    .text.SysTick_Wait10ms  systick.o
+    0x000018bc   0x000018bc   0x00000024   Code   RO          247    .text.SystemInit    system_msp432e401y.o
+    0x000018e0   0x000018e0   0x00000024   Code   RO          182    .text.UART_InChar   uart.o
+    0x00001904   0x00001904   0x000000ea   Code   RO          180    .text.UART_Init     uart.o
+    0x000019ee   0x000019ee   0x00000002   PAD
+    0x000019f0   0x000019f0   0x0000002e   Code   RO          184    .text.UART_OutChar  uart.o
+    0x00001a1e   0x00001a1e   0x00000002   PAD
+    0x00001a20   0x00001a20   0x0000002c   Code   RO          186    .text.UART_printf   uart.o
+    0x00001a4c   0x00001a4c   0x00000036   Code   RO           91    .text.VL53L1X_BootState  vl53l1x_api.o
+    0x00001a82   0x00001a82   0x00000002   PAD
+    0x00001a84   0x00001a84   0x00000066   Code   RO           71    .text.VL53L1X_CheckForDataReady  vl53l1x_api.o
+    0x00001aea   0x00001aea   0x00000002   PAD
+    0x00001aec   0x00001aec   0x00000026   Code   RO           67    .text.VL53L1X_ClearInterrupt  vl53l1x_api.o
+    0x00001b12   0x00001b12   0x00000002   PAD
+    0x00001b14   0x00001b14   0x00000030   Code   RO           95    .text.VL53L1X_GetDistance  vl53l1x_api.o
+    0x00001b44   0x00001b44   0x00000046   Code   RO           77    .text.VL53L1X_GetInterruptPolarity  vl53l1x_api.o
+    0x00001b8a   0x00001b8a   0x00000002   PAD
+    0x00001b8c   0x00001b8c   0x0000005a   Code   RO          107    .text.VL53L1X_GetRangeStatus  vl53l1x_api.o
+    0x00001be6   0x00001be6   0x00000002   PAD
+    0x00001be8   0x00001be8   0x0000011c   Code   RO           65    .text.VL53L1X_SensorInit  vl53l1x_api.o
+    0x00001d04   0x00001d04   0x00000026   Code   RO           69    .text.VL53L1X_StartRanging  vl53l1x_api.o
+    0x00001d2a   0x00001d2a   0x00000002   PAD
+    0x00001d2c   0x00001d2c   0x00000024   Code   RO           73    .text.VL53L1X_StopRanging  vl53l1x_api.o
+    0x00001d50   0x00001d50   0x00000032   Code   RO           45    .text.VL53L1_RdByte  vl53l1_platform_2dx4.o
+    0x00001d82   0x00001d82   0x00000002   PAD
+    0x00001d84   0x00001d84   0x0000004c   Code   RO           47    .text.VL53L1_RdWord  vl53l1_platform_2dx4.o
+    0x00001dd0   0x00001dd0   0x00000036   Code   RO           51    .text.VL53L1_WaitMs  vl53l1_platform_2dx4.o
+    0x00001e06   0x00001e06   0x00000002   PAD
+    0x00001e08   0x00001e08   0x00000030   Code   RO           39    .text.VL53L1_WrByte  vl53l1_platform_2dx4.o
+    0x00001e38   0x00001e38   0x00000024   Code   RO           25    .text.beginRxI2C    vl53l1_platform_2dx4.o
+    0x00001e5c   0x00001e5c   0x00000024   Code   RO           23    .text.beginTxI2C    vl53l1_platform_2dx4.o
+    0x00001e80   0x00001e80   0x000000b8   Code   RO          211    .text.collect_data  rajesa2_finalproject.o
+    0x00001f38   0x00001f38   0x0000003e   Code   RO          205    .text.init_portK    rajesa2_finalproject.o
+    0x00001f76   0x00001f76   0x00000002   PAD
+    0x00001f78   0x00001f78   0x0000003e   Code   RO          207    .text.init_portM    rajesa2_finalproject.o
+    0x00001fb6   0x00001fb6   0x00000002   PAD
+    0x00001fb8   0x00001fb8   0x00000166   Code   RO          217    .text.main          rajesa2_finalproject.o
+    0x0000211e   0x0000211e   0x00000002   PAD
+    0x00002120   0x00002120   0x000000d4   Code   RO          171    .text.onboardLEDs_Init  onboardleds.o
+    0x000021f4   0x000021f4   0x0000007a   Code   RO           33    .text.readI2C       vl53l1_platform_2dx4.o
+    0x0000226e   0x0000226e   0x00000002   PAD
+    0x00002270   0x00002270   0x00000188   Code   RO          213    .text.spin_motor    rajesa2_finalproject.o
+    0x000023f8   0x000023f8   0x00000114   Code   RO           31    .text.writeI2C      vl53l1_platform_2dx4.o
+    0x0000250c   0x0000250c   0x000000f0   Code   RO           27    .text.writeRegisterIndex  vl53l1_platform_2dx4.o
+    0x000025fc   0x000025fc   0x000000f0   Code   RO           29    .text.writeRegisterIndex_nostop  vl53l1_platform_2dx4.o
+    0x000026ec   0x000026ec   0x0000003e   Code   RO          438    CL$$btod_d2e        c_w.l(btod.o)
+    0x0000272a   0x0000272a   0x00000046   Code   RO          440    CL$$btod_d2e_denorm_low  c_w.l(btod.o)
+    0x00002770   0x00002770   0x00000060   Code   RO          439    CL$$btod_d2e_norm_op1  c_w.l(btod.o)
+    0x000027d0   0x000027d0   0x00000338   Code   RO          448    CL$$btod_div_common  c_w.l(btod.o)
+    0x00002b08   0x00002b08   0x000000dc   Code   RO          445    CL$$btod_e2e        c_w.l(btod.o)
+    0x00002be4   0x00002be4   0x0000002a   Code   RO          442    CL$$btod_ediv       c_w.l(btod.o)
+    0x00002c0e   0x00002c0e   0x0000002a   Code   RO          441    CL$$btod_emul       c_w.l(btod.o)
+    0x00002c38   0x00002c38   0x00000244   Code   RO          447    CL$$btod_mult_common  c_w.l(btod.o)
+    0x00002e7c   0x00002e7c   0x00000030   Code   RO          475    i.__ARM_fpclassify  m_wm.l(fpclassify.o)
+    0x00002eac   0x00002eac   0x0000000e   Code   RO          343    i._is_digit         c_w.l(__printf_wp.o)
+    0x00002eba   0x00002eba   0x00000002   PAD
+    0x00002ebc   0x00002ebc   0x0000002c   Code   RO          463    locale$$code        c_w.l(lc_numeric_c.o)
+    0x00002ee8   0x00002ee8   0x0000002c   Code   RO          485    locale$$code        c_w.l(lc_ctype_c.o)
+    0x00002f14   0x00002f14   0x0000001a   Code   RO          547    x$fpl$fpinit        fz_wm.l(fpinit.o)
+    0x00002f2e   0x00002f2e   0x00000004   Code   RO          380    x$fpl$printf1       fz_wm.l(printf1.o)
+    0x00002f32   0x00002f32   0x00000004   Code   RO          382    x$fpl$printf2       fz_wm.l(printf2.o)
+    0x00002f36   0x00002f36   0x00000000   Code   RO          388    x$fpl$usenofp       fz_wm.l(usenofp.o)
+    0x00002f36   0x00002f36   0x00000002   PAD
+    0x00002f38   0x00002f38   0x00000008   Data   RO          302    .constdata          c_w.l(_printf_wctomb.o)
+    0x00002f40   0x00002f40   0x00000028   Data   RO          331    .constdata          c_w.l(_printf_hex_int_ll_ptr.o)
+    0x00002f68   0x00002f68   0x00000011   Data   RO          351    .constdata          c_w.l(__printf_flags_ss_wp.o)
+    0x00002f79   0x00002f79   0x00000026   Data   RO          413    .constdata          c_w.l(_printf_fp_hex.o)
+    0x00002f9f   0x00002f9f   0x00000001   PAD
+    0x00002fa0   0x00002fa0   0x00000094   Data   RO          436    .constdata          c_w.l(bigflt0.o)
+    0x00003034   0x00003034   0x0000005b   Data   RO          145    .rodata.VL51L1X_DEFAULT_CONFIGURATION  vl53l1x_api.o
+    0x0000308f   0x0000308f   0x00000018   Data   RO          147    .rodata.status_rtn  vl53l1x_api.o
+    0x000030a7   0x000030a7   0x00000033   Data   RO          146    .rodata.str1.1      vl53l1x_api.o
+    0x000030da   0x000030da   0x00000023   Data   RO          191    .rodata.str1.1      uart.o
+    0x000030fd   0x000030fd   0x00000034   Data   RO          224    .rodata.str1.1      rajesa2_finalproject.o
+    0x00003131   0x00003131   0x00000003   PAD
+    0x00003134   0x00003134   0x00000020   Data   RO          622    Region$$Table       anon$$obj.o
+    0x00003154   0x00003154   0x0000001c   Data   RO          462    locale$$data        c_w.l(lc_numeric_c.o)
+    0x00003170   0x00003170   0x00000110   Data   RO          484    locale$$data        c_w.l(lc_ctype_c.o)
 
 
-    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x000030f8, Size: 0x0000002c, Max: 0xffffffff, ABSOLUTE)
-
-    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
-
-    0x20000000   0x000030f8   0x00000004   Data   RW          213    .data.STEPS         rajesa2_finalproject.o
-    0x20000004   0x000030fc   0x00000004   Data   RW          243    .data.SystemCoreClock  system_msp432e401y.o
-    0x20000008   0x00003100   0x00000002   Data   RW          216    .data.dev           rajesa2_finalproject.o
-    0x2000000a   0x00003102   0x00000002   PAD
-    0x2000000c   0x00003104   0x00000010   Data   RW          214    .data.motorSteps    rajesa2_finalproject.o
-    0x2000001c   0x00003114   0x00000010   Data   RW          215    .data.rev_motorSteps  rajesa2_finalproject.o
-
-
-    Execution Region ER_ZI (Exec base: 0x20000030, Load base: 0x00003124, Size: 0x00000668, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x00003280, Size: 0x00000028, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000030        -       0x00000060   Zero   RW          472    .bss                c_w.l(libspace.o)
-    0x20000090        -       0x00000001   Zero   RW          219    .bss.dataReady      rajesa2_finalproject.o
-    0x20000091        -       0x000003ff   Zero   RW          190    .bss.printf_buffer  uart.o
-    0x20000490        -       0x00000004   Zero   RW          218    .bss.status         rajesa2_finalproject.o
-    0x20000494   0x00003124   0x00000004   PAD
-    0x20000498        -       0x00000000   Zero   RW          230    HEAP                startup_msp432e401y_uvision.o
-    0x20000498        -       0x00000200   Zero   RW          229    STACK               startup_msp432e401y_uvision.o
+    0x20000000   0x00003280   0x00000004   Data   RW          249    .data.SystemCoreClock  system_msp432e401y.o
+    0x20000004   0x00003284   0x00000002   Data   RW          219    .data.dev           rajesa2_finalproject.o
+    0x20000006   0x00003286   0x00000002   PAD
+    0x20000008   0x00003288   0x00000010   Data   RW          222    .data.motorSteps    rajesa2_finalproject.o
+    0x20000018   0x00003298   0x00000010   Data   RW          223    .data.rev_motorSteps  rajesa2_finalproject.o
+
+
+    Execution Region ER_ZI (Exec base: 0x20000028, Load base: 0x000032a8, Size: 0x00000ae8, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000028        -       0x00000060   Zero   RW          478    .bss                c_w.l(libspace.o)
+    0x20000088        -       0x00000300   Zero   RW          225    .bss.distances      rajesa2_finalproject.o
+    0x20000388        -       0x00000180   Zero   RW          226    .bss.float_distances  rajesa2_finalproject.o
+    0x20000508        -       0x000003ff   Zero   RW          190    .bss.printf_buffer  uart.o
+    0x20000907   0x000032a8   0x00000001   PAD
+    0x20000908        -       0x00000004   Zero   RW          221    .bss.status         rajesa2_finalproject.o
+    0x2000090c   0x000032a8   0x00000004   PAD
+    0x20000910        -       0x00000000   Zero   RW          236    HEAP                startup_msp432e401y_uvision.o
+    0x20000910        -       0x00000200   Zero   RW          235    STACK               startup_msp432e401y_uvision.o
 
 
 ==============================================================================
@@ -1732,19 +1759,19 @@ Image component sizes
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
        434          0          0          0          0       1526   onboardleds.o
-       322          0          0          0          0        747   pll.o
-      1044          0         52         38          5       2938   rajesa2_finalproject.o
+       316          0          0          0          0        747   pll.o
+      1326          0         52         34       1156       3386   rajesa2_finalproject.o
         60         22        508          0        512        964   startup_msp432e401y_uvision.o
         36          0          0          4          0       7281   system_msp432e401y.o
        144          0          0          0          0        920   systick.o
        436          0         35          0       1023       1442   uart.o
       1178          0          0          0          0       4073   vl53l1_platform_2dx4.o
-       670          0        142          0          0      11323   vl53l1x_api.o
+       760          0        166          0          0      11323   vl53l1x_api.o
 
     ----------------------------------------------------------------------
-      4364         22        772         44       1544      31214   Object Totals
+      4732         22        796         40       2696      31662   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-        40          0          3          2          4          0   (incl. Padding)
+        42          0          3          2          5          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -1851,15 +1878,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     11212        288       1324         44       1640      33238   Grand Totals
-     11212        288       1324         44       1640      33238   ELF Image Totals
-     11212        288       1324         44          0          0   ROM Totals
+     11580        288       1348         40       2792      33686   Grand Totals
+     11580        288       1348         40       2792      33686   ELF Image Totals
+     11580        288       1348         40          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                12536 (  12.24kB)
-    Total RW  Size (RW Data + ZI Data)              1684 (   1.64kB)
-    Total ROM Size (Code + RO Data + RW Data)      12580 (  12.29kB)
+    Total RO  Size (Code + RO Data)                12928 (  12.62kB)
+    Total RW  Size (RW Data + ZI Data)              2832 (   2.77kB)
+    Total ROM Size (Code + RO Data + RW Data)      12968 (  12.66kB)
 
 ==============================================================================
 
