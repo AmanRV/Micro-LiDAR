@@ -5,7 +5,7 @@ import numpy as np
 
 #Constants
 ROTATIONS = 3 #number of rotations
-ANGLE = 2.8125 #angle of each step in rotation
+ANGLE = 5.625 #angle of each step in rotation
 
 #Variables
 measurements = [] #stores measurement data
